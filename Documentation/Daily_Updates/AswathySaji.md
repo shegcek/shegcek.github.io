@@ -20,6 +20,6 @@ I have completed "Our Initiative" section. Only some finishing works left.
 "Upcoming Events" page has started.
 
 
-**5-10-2020***
+**6-10-2020***
 
 Completed "upcoming events" and completed basic structure of dashboard by adding initiatives and notifications section.Applied common font and colour.
