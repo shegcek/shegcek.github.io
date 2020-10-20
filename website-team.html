@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>3D Our Team Page Concept</title>
+
+      <!-- custom stylesheet -->
+      <link rel="stylesheet" href="website-team.css">
+
+      <!-- font-awesome icons -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- Jquery CDN -->
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+      <!-- Plugin  -->
+      <script src="jquery.reflection.js"></script>
+      <script src="jquery.cloud9carousel.js"></script>
+
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Ranchers&display=swap" rel="stylesheet">
+
+             <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+      <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+      <div class="container d-flex align-items-center">
+    
+        <div class="logo mr-auto">
+          <h1 class="text-light"  style="font-family: Josefin Sans;font-size: 20px;"><a href="index.html"><span>LOGO</span></a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+    
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active over"><a href="index.html">Home</a></li>
+            <li class="drop-down over"><a href="">About</a>
+              <ul>
+                <li><a href="#">Office bearers</a></li>
+                <li><a href="#">Why SHE?</a></li>
+                <li><a href="#">You Tube</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="over"><a href="events.html">Events</a></li>
+            <li class="drop-down over"><a href="">Updates</a>
+              <ul class="under">
+                <li><a href="#">Calender</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">Messages</a></li>
+              </ul>
+            </li>
+            <li class="over"><a href="#contact">Contact</a></li>
+            <li class="drop-down under"><a href="">Resources</a>
+              <ul class="under">
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Workshops</a></li>          
+                <li><a href="#">Youtube Videos</a></li>        
+              </ul>
+            </li>
+       
+          </ul>
+        </nav><!-- .nav-menu -->
+      </div>
+    </header><!-- End Header -->
+      <div id="wrap" style="left:-648px">
+            <div id="showcase">
+                  <img src="Images/Images/Mehnaz.png" alt="Mehnaz<br>" class="cloud9-item">
+                  <img src="Images/Images/Aswathi.png" alt="Ashwathy Saji<br>" class="cloud9-item">
+                  <img src="Images/Images/Akshayaweb.png" alt="Akshaya P<br>" class="cloud9-item">
+                  <img src="Images/Images/Sukritha.png" alt="Sukritha K K<br>" class="cloud9-item">
+                  <img src="Images/Images/Sheethal.png" alt="Sheethal Sukumaran<br>" class="cloud9-item">
+                  <img src="Images/Images/Shifa.png" alt="Shifa<br>" class="cloud9-item">
+            </div>
+            <div  style="background-color: #25282b;padding-bottom: 30px;padding-top: 50px;">
+            <p id="item-title">&nbsp;</p>
+
+            <div class="nav noselect" style="   margin-left: 44.5%;">
+                  <button class="left"><i class="fa fa-arrow-left"></i></button>
+                  <button class="right"><i class="fa fa-arrow-right"></i></button>
+            </div>
+            <a href="publicity-committee.html"><div class="prev"  style="padding-top: 8px;margin-left: 0.5%;"><P>PREV</P></div></a>
+
+      </div>
+</div>
+      <script type="text/javascript">
+
+      $(function() {
+            var showcase = $("#showcase")
+
+            showcase.Cloud9Carousel( {
+                  yPos: 42,
+                  yRadius: 48,
+                  mirrorOptions: {
+                        gap: 12,
+                        height: 0.2
+                  },
+                  buttonLeft: $(".nav > .left"),
+                  buttonRight: $(".nav > .right"),
+                  autoPlay: true,
+                  bringToFront: true,
+
+                  onRendered: showcaseUpdated,
+                  onLoaded: function() {
+                        showcase.css( 'visibility', 'visible' )
+                        showcase.css( 'display', 'none')
+                        showcase.fadeIn( 1500 )
+                  }
+            })
+
+            function showcaseUpdated( showcase ) {
+                  var title = $("#item-title").html(
+                        $(showcase.nearestItem()).attr( 'alt' )
+                  )
+
+                  var c = Math.cos((showcase.floatIndex() % 1) * 2 * Math.PI)
+                  title.css('opacity', 0.5 + (0.5 * c))
+            }
+
+            $('.nav > button').click( function( e ) {
+                  var b = $(e.target).addClass( 'down' )
+                  setTimeout( function() { b.removeClass( 'down' ) }, 80)
+            } )
+
+            $(document).keydown( function( e ) {
+                  switch( e.keyCode ) {
+                        case 37:
+                        $('.nav > .left').click()
+                        break
+
+                        case 39:
+                        $('.nav > .right').click()
+                  }
+            })
+      })
+
+      </script>
+      <!-- ======= Footer ======= -->
+      <footer id="footer"  style="font-family: Josefin Sans;margin-top: 35px;">
+            <div class="footer-top">
+              <div class="container">
+                <div class="row">
+        
+                  <div class="col-lg-6 col-md-4">
+                    <div class="footer-info">
+                      <h3>SHE GCEK</h3>
+        
+                      <p>
+                        A108 Adam Street <br>
+                        NY 535022, USA<br><br>
+                        <strong>Phone:</strong> +1 5589 55488 55<br>
+                        <strong>Email:</strong> shegcek@gmail.com<br>
+                      </p>
+                      <div class="social-links mt-3">
+                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                        <a href="#" class="github"><i class="bx bxl-github"></i></a>
+                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-lg-6 col-md-4 footer-links" >
+                    <h4>Useful Links</h4>
+                    <ul >
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Events</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Notifications</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">FAQ</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="#">Testimonials</a></li>
+                    </ul>
+                  </div>
+        
+                  
+        
+                  
+                </div>
+              </div>
+            </div>
+        
+            <div class="container">
+              <div class="copyright">
+                &copy; Copyright <strong><span></span></strong>. All Rights Reserved
+              </div>
+              
+            </div>
+          </footer><!-- End Footer -->
+</body>
+</html>
