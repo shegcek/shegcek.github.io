@@ -1,0 +1,87 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Ranchers&display=swap" rel="stylesheet">
+
+
+  <style type="text/css">
+  *{
+padding:0;
+margin: 0;
+ box-sizing: border-box;
+font-family: 'Josefin Sans';
+color:rgb(207, 197, 197);
+
+
+}
+html,body{
+  height: 100%;
+  
+
+}
+body{
+  padding: 20px 40px;
+  background-color: rgba(56, 52, 52, 0.932);
+}
+    .responsive{
+      float:left;
+      width:60%;
+      height:0;
+      padding-bottom: 56.25%;
+      position: relative;
+    }
+    .responsive iframe{
+      position: absolute;
+      width: 120%;
+      height: 70%;
+      margin-top: 10%;
+    }
+    #notifications{
+      float:right;
+      width:20%;
+      margin-top: 3%;
+      margin-right: 5%;
+      font-size: 20px;
+
+    }
+
+  h1{
+    color:royalblue;
+    padding-bottom: 30px;
+    font-family: 'Josefin Sans';
+  }
+  </style>
+
+
+</head>
+<body>
+
+ 
+  <div class="responsive">
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23039BE5&amp;ctz=Asia%2FKolkata&amp;src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;showPrint=0&amp;showTabs=0" style="border-width:0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+  </div>
+  <div class="col-lg-4" id="notifications">
+                    <div class="tab">  
+                        <h1>NOTIFICATIONS</h1>
+                    </div>
+                    <div id="News" class="tabcontent" style="width: 98%; height: 86%; display: block;">
+                        <marquee direction="up" scrollamount="5" style="text-align:center ;max-height: 234px;" onmouseover="this.stop();" onmouseout="this.start();">
+                        
+
+                               <ul id="news">
+                               <li>SHE Notification 1-20/08/2020</li><br>
+                               <li>SHE Notification 2-20/08/2020</li><br>
+                               <li> SHE Notification 3-20/08/2020</li><br>
+                               <li>SHE Notification 4-20/08/2020</li><br>
+
+                           </ul>
+                        </marquee>
+</div></div>
+                       
+</body>
+</html>
