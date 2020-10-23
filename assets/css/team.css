@@ -17,12 +17,12 @@ html, body {
   display: inline-block;
   line-height: 1em;
 }
-h1{
+.committee{
 	display: table;
 	margin: 5% auto 0;
 	text-transform: uppercase;
 	font-family: 'Anaheim', sans-serif;
-	font-size: 4em;
+	font-size: 5vw;
 	font-weight: 400;
 	text-shadow: 0 1px white, 0 2px black;
       color: royalblue;
@@ -96,7 +96,7 @@ h1{
 
 #item-title,#item-title-2,#item-title-3,#item-title-4,#item-title-5 {
       color: #fff;
-      font-size: 30px;
+      font-size: 4vw;
       letter-spacing: 0.13em;
       text-align: center;
       margin-top: -20px;
