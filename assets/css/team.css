@@ -7,7 +7,7 @@ html, body {
 
 .ml12 {
   font-weight: 200;
-  font-size: 8em;
+  font-size: 10vw;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   color:  royalblue;
@@ -126,11 +126,12 @@ html, body {
       outline: none;
 }
 
-@media screen and (max-width:990px){
+@media screen and (max-width:600px){
       .ml12 {
-        font-weight: 200;
         font-size: 6em;
-        text-align: center;
+      }
+      #team{
+	      padding-top:40%;
       }
       #wrap {
             width: 600px;
