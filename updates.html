@@ -4,84 +4,239 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Ranchers&display=swap" rel="stylesheet">
 
-
-  <style type="text/css">
-  *{
-padding:0;
-margin: 0;
- box-sizing: border-box;
-font-family: 'Josefin Sans';
-color:rgb(207, 197, 197);
-
-
-}
-html,body{
-  height: 100%;
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   
 
+  <style type="text/css">
+
+
+#header.header-transparent{
+
+
+background:linear-gradient(to right,#25282b,#343a40)
 }
-body{
-  padding: 20px 40px;
-  background-color: rgba(56, 52, 52, 0.932);
+
+@font-face { font-family: Heading ; src: url('../fonts/heading.ttf'); } 
+@font-face { font-family: Magical ; src: url('../fonts/Magical.ttf'); } 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Josefin Sans';
+  }
+
+h1{
+  font-size: 30px;
+  padding-top:20px;
+  padding-bottom:30px;
 }
+
     .responsive{
+      padding-top:68px;
       float:left;
       width:60%;
       height:0;
-      padding-bottom: 56.25%;
+      margin: 4%;
+      padding-bottom: 56%;
       position: relative;
     }
+    
     .responsive iframe{
       position: absolute;
-      width: 120%;
-      height: 70%;
-      margin-top: 10%;
+      width: 100%;
     }
-    #notifications{
+    #notifications,#achievements{
       float:right;
-      width:20%;
-      margin-top: 3%;
-      margin-right: 5%;
+      width:27%;
+      border: 2px solid rgb(63, 59, 59);
+      margin: 2%;
+      margin-top:120px;
+      height: 235px;
       font-size: 20px;
 
     }
+    #achievements{
+      margin-top:2%;
+    }
+    .tab{
+      height: 60px;
+      padding-top: 5px;
+      font-size: 10px;
+      text-align: center;
+    }
+    @media (min-width: 501px) and (max-width: 991px) {
+      .tablet{
+        width:92%;height:0;
+        margin: 5%;
+      }
+      #achievements{
+        width:43%;height:60%;
+        margin: 2.5%;
+        margin-left: 4%;
+        float: left;
+      }
+      #notifications{
+        width:43%;height:60%;
+        margin: 2.5%;float: right;
+      }
+      .responsive iframe{
+        height: 100%;
+      }
+    }
+    @media (max-width:500px ) {
+      .mobile{
+        width:92%;height:0;
+        margin: 5%;
+      }
+      #notifications{
+        width:89%;height:43%;
+        margin: 5%;
+      }
+      #achievements{
+        width:89%;height:43%;
+        margin: 5%;
+      }
+      .responsive iframe{
+        height: 100%;
+      }
+    }
 
-  h1{
-    color:royalblue;
-    padding-bottom: 30px;
-    font-family: 'Josefin Sans';
-  }
+
+
   </style>
-
-
 </head>
 <body>
+   <!-- ======= Header ======= -->
+   <header name="header" id="header" class="fixed-top d-flex align-items-center header-transparent" style="   font-family: 'Josefin Sans';">
+    <div class="container d-flex align-items-center">
+     <div class="logo mr-auto">
+        <h1 class="text-light"  style="font-family: Josefin Sans;font-size: 20px;"><a href="index.html"><span>LOGO</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
 
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active over"><a href="index.html">Home</a></li>
+          <li class="drop-down over"><a href="">About</a>
+            <ul>
+              <li><a href="our_team.html">Our Team</a></li>
+              <li><a href="#">Why SHE?</a></li>
+              <li><a href="#">You Tube</a></li>
+              <li><a href="#testimonials-section">Testimonials</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </li>
+          <li class="over"><a href="events.html">Events</a></li>
+          <li class="drop-down over"><a href="">Updates</a>
+            <ul class="under">
+              <li><a href="updates.html">Calender</a></li>
+              <li><a href="updates.html">Notifications</a></li>
+              <li><a href="updates.html">News</a></li>
+              <li><a href="updates.html">Achievements</a></li>
+            </ul>
+          </li>
+          <li class="over"><a href="#footer">Contact</a></li>
+          <li class="drop-down under"><a href="">Resources</a>
+            <ul class="under">        
+              <li><a href="#">Youtube Videos</a></li>        
+            </ul>
+          </li>
+     
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" >
+      
+    <div class="container" style="min-height:180px;"  style="text-align: center;">
+      <div class="row"  style="text-align: center;width: 100%;" >
+        
+          <div data-aos="zoom-out"  style="text-align: center;margin: 90px auto auto auto;"> 
+
+            <h1 style="text-align: center;letter-spacing: 8px;padding-bottom: 50px;"><span>FAQ</span> </h1>
+        
+<h2  style="text-align: center !important;line-height:1.2;margin: auto;padding-bottom: 20px;" >Scheme for her Empowerment</h2>
+        
+          
  
-  <div class="responsive">
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23039BE5&amp;ctz=Asia%2FKolkata&amp;src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;showPrint=0&amp;showTabs=0" style="border-width:0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+
+          </div>
+      </div>
+      </div>
+        </div>
+     
+      </div>
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+
+  <div class="responsive tablet mobile">
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23039BE5&amp;ctz=Asia%2FKolkata&amp;src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;showPrint=0&amp;showTabs=0" style="border-width:0" width="500" height="525" frameborder="0" scrolling="no"></iframe>
   </div>
-  <div class="col-lg-4" id="notifications">
-                    <div class="tab">  
-                        <h1>NOTIFICATIONS</h1>
+  <div class="col-lg-4 mobile" id="notifications">
+                    <div class="tab">
+                        <h1 style="color:royalblue">NOTIFICATIONS</h1>
                     </div>
-                    <div id="News" class="tabcontent" style="width: 98%; height: 86%; display: block;">
-                        <marquee direction="up" scrollamount="5" style="text-align:center ;max-height: 234px;" onmouseover="this.stop();" onmouseout="this.start();">
-                        
+                    <div id="News" class="tabcontent" style="width: 90%; display: block;">
+                        <marquee direction="up" scrollamount="5" style="max-height: 134px;" onmouseover="this.stop();" onmouseout="this.start();">
+
 
                                <ul id="news">
                                <li>SHE Notification 1-20/08/2020</li><br>
                                <li>SHE Notification 2-20/08/2020</li><br>
-                               <li> SHE Notification 3-20/08/2020</li><br>
-                               <li>SHE Notification 4-20/08/2020</li><br>
+                               <li>SHE Notification 3-20/08/2020</li><br>
 
                            </ul>
-                        </marquee>
-</div></div>
-                       
+                        </marquee></div></div>
+                        <div class="col-lg-4 mobile" id="achievements"> 
+                                          <div class="tab">
+                                              <h1 style="color:royalblue">ACHIEVEMENTS</h1>
+                                          </div>
+                                          <div id="News" class="tabcontent" style="width: 90%; display: block;">
+                                              <marquee direction="up" scrollamount="5" style="max-height: 134px;" onmouseover="this.stop();" onmouseout="this.start();">
+
+
+                                                     <ul id="news">
+                                                     <li>SHE Achievement 1-20/08/2020</li><br>
+                                                     <li>SHE Achievement 2-20/08/2020</li><br>
+                                                     <li>SHE Achievement 3-20/08/2020</li><br>
+
+                                                 </ul>
+                                              </marquee></div></div>
+
+
+                                            
+
 </body>
 </html>
+
