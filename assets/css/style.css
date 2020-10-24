@@ -459,9 +459,10 @@ letter-spacing: 2px;
 
 
 .btn-get-started {
+    margin-top:20px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 20px;
@@ -699,6 +700,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 30px 0 0 0;
+  margin-bottom: 40px;
 }
 
 .icon-boxes{
@@ -708,19 +710,34 @@ line-height: 1.2;
 
  .icon-boxes h3 {
   color: royalblue;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 
 }
 
+.icon-boxes h3::after{
+
+content: "";
+width: 100px;
+height: 2px;
+display: inline-block;
+background: royalblue;
+margin: 4px 8px;
+}
  .icon-boxes p {
-  font-size: 16px;
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: 'Josefin Sans';
+  font-weight: 200;
 }
 
 @media(max-width: 600px)
 { .icon-boxes h3 {
     font-size: 26px;
+  }
+    .icon-boxes p {
+    font-size: 13px
   }
 }
 
