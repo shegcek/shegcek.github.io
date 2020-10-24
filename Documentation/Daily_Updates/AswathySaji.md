@@ -13,7 +13,7 @@ I have completed "Our Initiative" section. Only some finishing works left.
 
 **3-10-2020**
 
-"News,notificatios and faq" page has completed.
+"Calender,notificatios and faq" section has completed.
 
 **4-10-2020**
 
@@ -23,3 +23,8 @@ I have completed "Our Initiative" section. Only some finishing works left.
 **6-10-2020***
 
 Completed "upcoming events" and completed basic structure of dashboard by adding initiatives and notifications section.Applied common font and colour.
+
+**24-10-2020**
+
+
+completed our initiatives main page,faq main page,events main page
