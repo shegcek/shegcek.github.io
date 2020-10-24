@@ -1352,8 +1352,19 @@ hr {
 @media screen and (min-width:1000px) {
  .info-image {
   -webkit-box-shadow:10px 10px 28px 0 rgba(0,0,0,.1);
-  box-shadow:10px 10px 28px 0 rgba(0,0,0,.1)
+  box-shadow:10px 10px 28px 0 rgba(0,0,0,.1);
  }
+}
+@media (max-width:768px){
+  .relative {
+  padding: 1%;
+  }
+  .heading{
+    text-align: center;
+  }
+  .para{
+    text-align: center;
+  }
 }
 @media screen and (max-width:1000px) {
  input,
