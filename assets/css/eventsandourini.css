@@ -624,7 +624,7 @@ video {
  flex-direction:row;
  -ms-flex-wrap:wrap;
  flex-wrap:wrap;
- margin:0 1.2rem
+ margin:0 -1.2rem;
 }
 .grid-row-1 {
   display:-webkit-box;
@@ -639,7 +639,7 @@ video {
   flex-direction:row-reverse;
   -ms-flex-wrap:wrap;
   flex-wrap:wrap;
-  margin:1.2rem 0
+  margin: 0 1.2rem;
  }
  @media (max-width:768){
   .grid-column{
