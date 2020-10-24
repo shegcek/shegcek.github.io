@@ -22,7 +22,9 @@ a {
   transition: .3s all ease; }
   a:hover {
     text-decoration: none; }
-
+.test-container{
+  padding-top:50px
+}
 
 
 .site-wrap:before {
@@ -174,10 +176,10 @@ a {
 
 @media(max-width:500px){
   .testimonial-wrap blockquote p {
-    font-size: 15px;
+    font-size: 13px;
   }
     .testimonial-wrap blockquote p.author {
-      font-size: 14px;
+      font-size: 12px;
     }
 }
 
