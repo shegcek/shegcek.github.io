@@ -467,7 +467,11 @@ letter-spacing: 2px;
   color: royalblue;
   color: royalblue;
 }
-
+.upcomingimg {
+  background: url("../img/cabin.jpg") center center no-repeat;
+  background-size: contain;
+  min-height: 300px;
+}
  .btn-get-started:hover {
   background:royalblue;
   text-decoration: none;
