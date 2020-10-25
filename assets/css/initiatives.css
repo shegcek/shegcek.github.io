@@ -101,6 +101,16 @@ a{
 #services .row .col .card:hover .circle:after {
   background: var(--bg-color-light);
 }
+#services h2::after{
+  content: "";
+  width: 100px;
+  height: 1px;
+  display: inline-block;
+  background: white;
+  margin: 4px 10px;
+}
+
+
 
 #services .row .col .card:hover p {
   color: var(--text-color-hover);
