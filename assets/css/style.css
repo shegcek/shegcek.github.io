@@ -1253,6 +1253,16 @@ margin: 4px 8px;
   font-family: "Josefin Sans", sans-serif;
 }
 
+  @media(max-width:400px){
+  #footer .footer-top .footer-info h3 {
+    font-size: 17px;
+  }
+  
+#footer .footer-top .footer-info p {
+  font-size: 10px;}
+  
+}
+  
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
