@@ -413,6 +413,7 @@ height:40px;
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
+  background-color: black;
   background: url("../img/hero-bg.jpg");
   position: relative;
   padding: 120px 0 0 0;
@@ -442,10 +443,6 @@ height:40px;
 
 }
 
-
-
-
-
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
  font-size: 60px;
@@ -455,11 +452,8 @@ letter-spacing: 2px;
 
 }
 
-
-
-
 .btn-get-started {
-    margin-top:20px;
+  margin-top:20px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -470,6 +464,7 @@ letter-spacing: 2px;
   transition: 0.5s;
   background: transparent;
   border: solid 2px royalblue;
+  color: royalblue;
   color: royalblue;
 }
 
@@ -654,7 +649,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
@@ -690,6 +685,10 @@ section {
   color:  #484d50;
 }
 @media (max-width:400px){
+.section-title h2{
+  font-size:26px;
+}
+
   .section-title p {
   font-size: 17px;}
 }
@@ -738,80 +737,9 @@ margin: 4px 8px;
   }
     .icon-boxes p {
     font-size: 13px
-.about .icon-box {
-  margin-top: 40px;
-}
-
-.about .icon-box .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 64px;
-  height: 64px;
-  border: 2px solid royalblue;
-  border-radius: 50px;
-  transition: 0.5s;
-}
-
-
-
-.about .icon-box .icon i {
-  color: royalblue;
-  font-size: 32px;
-}
-
-.about .icon-box:hover .icon {
-  background: royalblue;
-  border-color: royalblue;
-}
-
-.about .icon-box:hover .icon i {
-  color: #fff;
-}
-
-.about .icon-box .title {
-  margin-left: 85px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 24px;
-  color:royalblue;
-}
-
-
-.about .icon-box .title a:hover {
-  color: royalblue;
-}
-
-.about .icon-box .description {
-  color:rgb(105, 135, 224);
-  margin-left: 85px;
-  line-height: 24px;
-  font-size: 18px;
-}
-
-@media(max-width:400px){
-
-  .about .icon-box .title {
-    font-size: 20px;
-    margin-left: 60px;
-  }
-  .about .icon-box .description {
- 
-    font-size: 15px;
-    margin-left: 60px;
-  }
-
-  .about .icon-box .icon {
-    width: 40px;
-    height: 40px;
-
-  }
-  .about .icon-box .icon i {
-    font-size: 20px;
   }
 }
-}
+
 
 
 .about .icon-box {
@@ -1246,23 +1174,23 @@ margin: 4px 8px;
   font-weight: 700;
 }
 
+
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Josefin Sans", sans-serif;
 }
-
-  @media(max-width:400px){
+@media(max-width:400px){
   #footer .footer-top .footer-info h3 {
     font-size: 17px;
   }
   
 #footer .footer-top .footer-info p {
   font-size: 10px;}
-  
 }
-  
+
+
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -1307,7 +1235,12 @@ margin: 4px 8px;
   font-size: 18px;
   line-height: 1;
 }
-
+@media(max-width:400px){
+  #footer .footer-top .footer-links ul i {
+    font-size: 10px;
+  
+  }
+}
 #footer .footer-top .footer-links ul li {
   padding: 10px 0;
   display: flex;
