@@ -1382,6 +1382,17 @@ border-radius: 100%;
   font-size:23px
  }
 }
+
+
+.heading{
+  color:royalblue;
+  font-size:25px;
+  font-family:'Josefin Sans'
+}
+.para{
+  font-size:17px;
+  font-family:'Josefin Sans'
+}
 @media screen and (min-width:1000px) {
  .info-image {
   -webkit-box-shadow:10px 10px 28px 0 rgba(0,0,0,.1);
@@ -1389,9 +1400,32 @@ border-radius: 100%;
  }
 }
 
+@media(max-width:400px){
+  .heading{
+
+    font-size:18px;
+
+  }
+  .para{
+    font-size:13px;
+
+  }
+}
+
+
 @media (max-width:640px){
   .relative {
   padding: 1%;
+  }
+ 
+  .heading{
+
+    font-size:20px;
+
+  }
+  .para{
+    font-size:15px;
+
   }
   .heading{
     text-align: center;
