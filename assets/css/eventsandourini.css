@@ -639,7 +639,6 @@ video {
   flex-direction:row-reverse;
   -ms-flex-wrap:wrap;
   flex-wrap:wrap;
-  margin: 0 1.2rem;
  }
  @media (max-width:768){
   .grid-column{
@@ -1373,6 +1372,7 @@ height: 80%;
 width: 80%;
 border-radius: 100%;
 }
+
 .relative{
   margin-left: 7%;
   margin-right: 7%;
