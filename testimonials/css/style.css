@@ -106,7 +106,7 @@ a {
     margin-top: 0 } }
   @media (max-width:991.98px) {.custom-owl-carousel .slide-one-item-alt{
     height:auto;
-    width:100%;
+    width:90%;
   }}
 .custom-owl-carousel .owl-custom-direction {
   position: absolute;
