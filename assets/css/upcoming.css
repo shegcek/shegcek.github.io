@@ -56,6 +56,7 @@
     font-size: 15.5px;
     font-weight: 600;
     margin: 0.5rem 0;
+    font-family:'Josefin Sans';
 
 }
 .blog-post-title{
@@ -64,6 +65,7 @@
     margin:20px 0 20px;
     text-transform: uppercase;
     color:royalblue;   
+     font-family:'Josefin Sans';
 }
 
 
