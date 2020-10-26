@@ -5,18 +5,7 @@ html, body {
       height: 100%;
 }
 
-.ml12 {
-  font-weight: 200;
-  font-size: 10vw;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-  color:  royalblue;
-}
 
-.ml12 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
 .committee{
 	display: table;
 	margin: 5% auto 0;
@@ -25,15 +14,7 @@ html, body {
 	font-size: 3em;
 	font-weight: 400;
 	text-shadow: 0 1px white, 0 2px black;
-      color: royalblue;
-}
-#team{
-      color: #fff;
-      background-color: rgb(16, 16, 16);
-      background-size: cover;
-      overflow-x: hidden;
-      height: 100vh;
-      text-align: center;
+  
 }
 #team-1{
       color: #fff;
@@ -128,12 +109,7 @@ html, body {
 }
 
 @media screen and (max-width:600px){
-      .ml12 {
-        font-size: 6em;
-      }
-      #team{
-	      padding-top:40%;
-      }
+      
       .committee{
             font-size: 6vw;
       }
