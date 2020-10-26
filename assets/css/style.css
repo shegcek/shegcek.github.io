@@ -161,7 +161,7 @@ height:40px;
 
 #header .logo img {
   padding: 0;
-  max-height: 60px;
+  max-height: 55px;
 }
 
 @media(max-width:500px){
@@ -1340,4 +1340,14 @@ margin: 4px 8px;
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+}
+
+.gcek_logo{
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+  background-color: white;
+margin-bottom: 10px;
+display: inline-block;
+margin-top: 10px;
 }
