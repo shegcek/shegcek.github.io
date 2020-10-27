@@ -33,7 +33,7 @@ h3 {
     font-family: 'Josefin Sans';
   }
 
-  @media(max-width:500px) {
+  @media(max-width:540px) {
     .para {
       font-size: 14px;
 
@@ -57,7 +57,7 @@ a{
 }
 .box{
 
-	height:20vw;
+	height:330px;
 	background-color:#1e1e26;
 	border-radius: 10px;
 	box-shadow: 2px 10px 12px rgba(0,0,0,0.5);
@@ -66,8 +66,8 @@ a{
 	align-items: center;
 	justify-content: space-between;
 	box-sizing: border-box;
-	margin: 10px 15px;
-	width: 20vw;
+	margin: 10px 10px;
+	width: 330px;
 }
 .model{
 	height: 100%;
@@ -87,10 +87,10 @@ a{
 }
 
 /*--responsive for mobile phone--*/
-@media(max-width:720px){
+@media(max-width:540px){
 	.box{
-		width: 60%;
-		height: 500px;
+		height: 250px;
+		width: 250px;
 	}
 	.model{
 		height:100%;
