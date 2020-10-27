@@ -20,8 +20,8 @@
     position: relative;
     top: 108%;
     left: 50%;
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
     margin: 0 15px 0 0;
     opacity: 0.4;
     transform: translateX(-83px);
@@ -37,7 +37,19 @@
     opacity: 1;
   }
   
-  
+    @media (max-width:540px){
+    input[type=radio] {
+        position: relative;
+        top: 108%;
+        left: 60%;
+        width: 10px;
+        height: 10px;
+        margin: 0 15px 0 0;
+        opacity: 0.4;
+        transform: translateX(-83px);
+        cursor: pointer;
+      }
+  }
   
   
   #slider label{
