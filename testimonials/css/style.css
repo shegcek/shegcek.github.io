@@ -105,8 +105,42 @@ a {
   .custom-owl-carousel .col-lg-5 {
     margin-top: 0 } }
   @media (max-width:991.98px) {.custom-owl-carousel .slide-one-item-alt{
+    margin-left:13px;
+
     height:auto;
     width:90%;
+  }}
+
+  @media (max-width:625px) {.custom-owl-carousel .slide-one-item-alt{
+    margin-left:16px;
+    height:auto;
+    width:90%;
+  }}
+
+  @media (max-width:320px) {.custom-owl-carousel .slide-one-item-alt{
+    margin-left:15px;
+  }}
+
+  @media (max-width:310px) {.custom-owl-carousel .slide-one-item-alt{
+    margin-left:14px;
+
+  }}
+
+  @media (max-width:300px) {.custom-owl-carousel .slide-one-item-alt{
+    margin-left:13px;
+
+  }}
+  @media (max-width:290px) {.custom-owl-carousel .slide-one-item-alt{
+    margin-left:12px;
+
+  }}
+  @media (max-width:280px) {.custom-owl-carousel .slide-one-item-alt{
+    margin-left:11px;
+
+  }}
+  @media (max-width:260px) {.custom-owl-carousel .slide-one-item-alt{
+    margin-left:10px;
+
   }}
 .custom-owl-carousel .owl-custom-direction {
   position: absolute;
