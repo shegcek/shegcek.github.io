@@ -186,14 +186,19 @@ a{
   border-radius: 50%;
   z-index: 2 ;
 }
+@font-face { font-family: Magical ; src: url('../fonts/Magical.ttf');}
+  @font-face { font-family: Heading ; src: url('../fonts/heading.ttf');}
+
 .heading-of-services{
   margin-top:180px;
   z-index: 2;
   text-decoration:none !important;
-  color: rgba(0, 52, 100, 0.993);
-  font-size: 1rem;
+  color: #0a6868;
+  font-size: 0.9rem;
   padding: 4%;
-}
+  font-weight:600;
+  font-family: 'Heading';
+ } 
 .heading-of-services:hover{
   text-decoration:none;
 }
