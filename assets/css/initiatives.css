@@ -198,6 +198,7 @@ a{
   padding: 4%;
   font-weight:600;
   font-family: 'Heading';
+    line-height:1.2;
  } 
 .heading-of-services:hover{
   text-decoration:none;
