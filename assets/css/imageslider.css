@@ -69,7 +69,7 @@
   }
   
   #slide1 {
-    background:url(../img/she/10.comp.jpg);
+    background:url(../img/she/1.jpg);
     object-fit: cover;
     background-position: center;
     width: 330px;
@@ -77,7 +77,7 @@
   }
   
   #slide2 {
-    background:url(../img/she/12.comp.jpg);
+    background:url(../img/she/2.jpg);
     object-fit: cover;
     background-position: center;
     width: 330px;
@@ -85,7 +85,7 @@
   }
   
   #slide3 {
-    background:url(../img/she/1.comp.jpg);
+    background:url(../img/she/3.jpg);
     object-fit: cover;
     background-position: center;
     width: 330px;
@@ -93,7 +93,7 @@
   }
   
   #slide4 {
-    background:url(../img/she/15.comp.jpg);
+    background:url(../img/she/4.jpg);
     object-fit: cover;
     background-position: center;
     width: 330px;
@@ -101,7 +101,7 @@
   }
   
   #slide5 {
-    background:url(../img/she/8.comp.jpg);
+    background:url(../img/she/5.jpg);
     object-fit: cover;
     background-position: center;
     width: 330px;
