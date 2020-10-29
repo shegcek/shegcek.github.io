@@ -742,10 +742,9 @@ margin: 4px 8px;
 }
 
 .about .icon-box .description {
-  color:rgb(105, 135, 224);
   margin-left: 85px;
-  line-height: 24px;
-  font-size: 18px;
+  line-height: 1.5;
+  font-size: 17px;
 }
 
 @media(max-width:400px){
@@ -756,10 +755,9 @@ margin: 4px 8px;
   }
   .about .icon-box .description {
  
-    font-size: 15px;
+    font-size: 13px;
     margin-left: 60px;
   }
-
   .about .icon-box .icon {
     width: 40px;
     height: 40px;
