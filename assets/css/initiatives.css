@@ -16,56 +16,48 @@ a{
 }
 #services{
   text-align: center;
-  
-  align-items: center;
-  
-  background: url(../img/initiativesbg.jpg);
-  background-size: cover;
   color: #1d1d1d;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   overflow: hidden;
   /* height: 80vh; */
   padding:0;
 }
 
 .deep {
-  --bg-color:lightblue;
-  --bg-color-light: lightblue;
-  --text-color-hover: #0a6868;
+  --bg-color:#373a40;
+  --bg-color-light: #fff;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(204, 202, 197, 0.48);
 }
 
 .bigdata {
-  --bg-color: lightblue;
-  --bg-color-light: lightblue;
-  --text-color-hover: #0a6868;
+  --bg-color: #373a40;
+  --bg-color-light: #fff;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(204, 202, 197, 0.48);
 }
 
 .image {
-  --bg-color:  lightblue;
-  --bg-color-light:  lightblue;
-  --text-color-hover: #0a6868;
+  --bg-color:  #373a40;
+  --bg-color-light:  #fff;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(204, 202, 197, 0.48);
 }
 
 .iot {
-  --bg-color: lightblue;
-  --bg-color-light:   lightblue;
-  --text-color-hover: #0a6868;
+  --bg-color: #373a40;
+  --bg-color-light:  #fff;
+  --text-color-hover:  #fff;
   --box-shadow-color: rgba(204, 202, 197, 0.48);
 }
 .robotics {
-  --bg-color:  lightblue;
-  --bg-color-light:   lightblue;
-  --text-color-hover: #0a6868;
+  --bg-color:  #373a40;
+  --bg-color-light:   #fff;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(204, 202, 197, 0.48);
 }
 
 #services .row .col .card {
-    background:#fff;
+    background:#373a40;
   border-radius: 0;
   border-radius: 10px;
   overflow: hidden;
@@ -79,7 +71,7 @@ a{
   text-decoration: none;
   border:none;
   margin-top:3%;
-  /* margin-bottom:3%; */
+  margin-bottom:3%;
   height:300px;
 }
 
@@ -106,7 +98,7 @@ a{
   width: 100px;
   height: 1px;
   display: inline-block;
-  background: white;
+  background: royalblue;
   margin: 4px 10px;
 }
 
@@ -186,30 +178,19 @@ a{
   border-radius: 50%;
   z-index: 2 ;
 }
-@font-face { font-family: Magical ; src: url('../fonts/Magical.ttf');}
-  @font-face { font-family: Heading ; src: url('../fonts/heading.ttf');}
-
 .heading-of-services{
   margin-top:180px;
   z-index: 2;
   text-decoration:none !important;
-  color: #0a6868;
+  color: #fff;
   font-size: 0.9rem;
-  padding: 4%;
   font-weight:600;
   font-family: 'Heading';
-    line-height:1.5;
+  line-height:1.5;
+  padding: 4%;
  } 
 .heading-of-services:hover{
   text-decoration:none;
-}
-.details{
-  font-size: 0.8rem !important;
-  padding:3%;
-  margin:0;
-  margin-top: 0 !important;
-  padding: 0 4%;
-  padding-bottom:10%;
 }
 @media (min-width: 992px) {
   #services{
