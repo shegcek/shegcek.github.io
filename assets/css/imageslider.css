@@ -1,6 +1,4 @@
-
-  
-    #slider {
+#slider {
     position: relative;
     width: 330px;
     height: 330px;
@@ -69,15 +67,15 @@
   }
   
   #slide1 {
-    background:url(../img/she/1.jpg);
-    object-fit: cover;
+    background:url(../img/she/9.jpg);
+    background-size: cover;
     background-position: center;
     width: 330px;
     height: 330px;
   }
   
   #slide2 {
-    background:url(../img/she/2.jpg);
+    background:url(../img/she/7.jpg);
     object-fit: cover;
     background-position: center;
     width: 330px;
@@ -85,7 +83,7 @@
   }
   
   #slide3 {
-    background:url(../img/she/3.jpg);
+    background:url(../img/she/8.jpg);
     object-fit: cover;
     background-position: center;
     width: 330px;
@@ -93,7 +91,7 @@
   }
   
   #slide4 {
-    background:url(../img/she/4.jpg);
+    background:url(../img/she/3.jpg);
     object-fit: cover;
     background-position: center;
     width: 330px;
@@ -101,7 +99,7 @@
   }
   
   #slide5 {
-    background:url(../img/she/5.jpg);
+    background:url(../img/she/4.jpg);
     object-fit: cover;
     background-position: center;
     width: 330px;
