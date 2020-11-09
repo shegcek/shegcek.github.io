@@ -91,12 +91,9 @@ a {
 
 .custom-owl-carousel .slide-one-item-alt {
  
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  border-bottom-left-radius: 100px;
-  border-bottom-right-radius: 100px;
- height:400px;
- width:400px;
+border-radius: 50%;
+ height:350px;
+ width:350px;
   overflow: hidden;
   -webkit-box-shadow: 0 30px 100px -20px rgba(0, 0, 0, 0.4);
   box-shadow: 0 30px 100px -20px rgba(0, 0, 0, 0.4); }
