@@ -25,6 +25,9 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Josefin Sans", sans-serif;
 }
+#gcek{
+  font-size:3.5rem;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -464,7 +467,7 @@ letter-spacing: 1px;
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 540px) {
   #hero .hero-img img {
     width: 80%;
   }
@@ -473,6 +476,9 @@ letter-spacing: 1px;
     line-height:1.5;
     padding: 2%;
     text-align: center;
+  }
+   #gcek{
+    font-size: 30px;
   }
   #hero h2{
     font-size: 20px;
