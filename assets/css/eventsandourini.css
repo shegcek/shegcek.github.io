@@ -1387,11 +1387,12 @@ border-radius: 100%;
 .heading{
   color:royalblue;
   font-size:25px;
-  font-family:'Josefin Sans'
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 .para{
   font-size:17px;
-  font-family:'Josefin Sans'
+  font-family: 'Poppins', sans-serif;
 }
 @media screen and (min-width:1000px) {
  .info-image {
