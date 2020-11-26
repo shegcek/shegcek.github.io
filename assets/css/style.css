@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: royalblue;
+  color: rgb(168, 35, 41);
 }
 
 a:hover {
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: royalblue;
+  background: rgb(168, 35, 41);
   color: #fff;
   transition: all 0.4s;
 
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 25px;
-  background-color: royalblue;
+  background-color: rgb(168, 35, 41);
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: royalblue;
+  color:  rgb(245, 42, 52);
 }
 
 .nav-menu .drop-down > a:after {
@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: royalblue;
+  color: rgb(168, 35, 41);
   text-decoration: none;
 }
 
@@ -419,13 +419,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 25px;
   transition: 0.5s;
   background: transparent;
-  border: solid 2px royalblue;
-  color: royalblue;
-  color: royalblue;
+  border: solid 2px rgb(168, 35, 41);
+  color: rgb(168, 35, 41);
+ 
 }
 
  .btn-get-started:hover {
-  background:royalblue;
+  background:rgb(168, 35, 41);
   text-decoration: none;
   color: white;
 }
@@ -613,7 +613,7 @@ section {
   padding-bottom: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: royalblue;
+  color:rgb(168, 35, 41);
 
 }
 
@@ -622,7 +622,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: royalblue;
+  background:rgb(168, 35, 41);
   margin: 4px 10px;
 }
 .h3after::after {
@@ -630,7 +630,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: royalblue;
+  background: rgb(168, 35, 41);
   margin: 4px 10px;
 }
 
@@ -667,7 +667,7 @@ line-height: 1.2;
 }
 
  .icon-boxes h3 {
-  color: royalblue;
+  color: rgb(168, 35, 41);
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 15px;
@@ -680,7 +680,7 @@ content: "";
 width: 100px;
 height: 2px;
 display: inline-block;
-background: royalblue;
+background: rgb(168, 35, 41);
 margin: 4px 8px;
 }
  .icon-boxes p {
@@ -712,7 +712,7 @@ margin: 4px 8px;
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid royalblue;
+  border: 2px solid rgb(168, 35, 41);
   border-radius: 50px;
   transition: 0.5s;
 }
@@ -720,13 +720,13 @@ margin: 4px 8px;
 
 
 .about .icon-box .icon i {
-  color: royalblue;
+  color: rgb(168, 35, 41);
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: royalblue;
-  border-color: royalblue;
+  background: rgb(168, 35, 41);
+  border-color: rgb(168, 35, 41);
 }
 
 .about .icon-box:hover .icon i {
@@ -738,12 +738,12 @@ margin: 4px 8px;
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 24px;
-  color:royalblue;
+  color:rgb(168, 35, 41);
 }
 
 
 .about .icon-box .title a:hover {
-  color: royalblue;
+  color: rgb(168, 35, 41);
 }
 
 .about .icon-box .description {
@@ -837,7 +837,7 @@ margin: 4px 8px;
 }
 
 .play-btn:hover::after {
-  border-left: 15px solid royalblue;
+  border-left: 15px solid rgb(168, 35, 41);
   transform: scale(20);
 }
 
@@ -923,7 +923,7 @@ margin: 4px 8px;
   position: absolute;
   right: 0;
   left: 20px;
-  color: royalblue;
+  color: rgb(168, 35, 41);
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
@@ -947,7 +947,7 @@ margin: 4px 8px;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: royalblue;
+  color: rgb(168, 35, 41);
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -985,7 +985,7 @@ margin: 4px 8px;
 
 .contact .info i {
   font-size: 20px;
-  color: royalblue;
+  color: rgb(168, 35, 41);
   float: left;
   width: 44px;
   height: 44px;
@@ -1002,13 +1002,13 @@ margin: 4px 8px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: royalblue;
+  color: rgb(168, 35, 41);
 }
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: royalblue;
+  color: rgb(168, 35, 41);
 }
 
 .contact .info .email, .contact .info .phone {
@@ -1016,7 +1016,7 @@ margin: 4px 8px;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: royalblue;
+  background: rgb(168, 35, 41);
   color: #fff;
 }
 
@@ -1037,7 +1037,7 @@ margin: 4px 8px;
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: royalblue;
+  background:rgb(168, 35, 41);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1057,7 +1057,7 @@ margin: 4px 8px;
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid royalblue;
+  border: 3px solid rgb(168, 35, 41);
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
@@ -1077,7 +1077,7 @@ margin: 4px 8px;
 }
 
 .contact .php-email-form button[type="submit"] {
-  background:royalblue;
+  background:rgb(168, 35, 41);
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1086,7 +1086,7 @@ margin: 4px 8px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: royalblue;
+  background: rgb(168, 35, 41);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1125,7 +1125,7 @@ margin: 4px 8px;
   margin-bottom: 15px;
   background:#25282b;
   color: #fff;
-  border-top: 2px solid royalblue;
+  border-top: 2px solid rgb(168, 35, 41);
   text-align: center;
   padding: 30px 20px;
 }
@@ -1170,7 +1170,7 @@ margin: 4px 8px;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: royalblue;
+  background: rgb(168, 35, 41);
   color: #fff;
   text-decoration: none;
 }
@@ -1227,7 +1227,7 @@ margin: 4px 8px;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: royalblue;
+  color: rgb(168, 35, 41);
 }
 
 #footer .footer-links h4{
@@ -1257,18 +1257,18 @@ margin: 4px 8px;
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: royalrblue;
+  background: rgb(168, 35, 41);
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: royalblue;
+  background: rgb(168, 35, 41);
 }
 
 #footer .copyright {
-  border-top: 2px solid royalblue;
+  border-top: 2px solid rgb(168, 35, 41);
   text-align: center;
   padding-top: 30px;
 }
