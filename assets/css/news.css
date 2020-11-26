@@ -17,11 +17,11 @@ body {
 }
 
 a {
-  color: royalblue;
+  color: rgb(133, 13, 19);
 }
 
 a:hover {
-  color:royalblue;
+  color:rgb(133, 13, 19);
   text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 0;
   font-family: "Poppins", sans-serif;
-  color: royalblue;
+  color:rgb(133, 13, 19);
 }
 
 
@@ -118,7 +118,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: royalblue;
+  color:rgb(133, 13, 19);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -185,7 +185,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: royalblue;
+  color: rgb(133, 13, 19);
   margin: 0 2px;
   font-size: 24px;
   display: inline-block;
@@ -198,7 +198,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #fff;
-  background:royalblue;
+  background:rgb(133, 13, 19);
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -282,7 +282,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: royalblue !important;
+  background-color: rgb(133, 13, 19) !important;
 }
 
 .portfolio-details .portfolio-info {
