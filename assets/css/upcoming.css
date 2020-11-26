@@ -64,14 +64,14 @@
     font-weight:600;
     margin:20px 0 20px;
     text-transform: uppercase;
-    color:royalblue;   
+    color:rgb(133, 13, 19);   
     font-family: 'Montserrat', sans-serif;
 }
 
 
 .upcomingtitle{
     font-size: 40px;
-    color: royalblue;
+    color: rgb(133, 13, 19);
 }
 
 @media(max-width:500px){
@@ -86,7 +86,7 @@
     width: 120px;
     height: 1px;
     display: inline-block;
-    background: royalblue;
+    background:rgb(133, 13, 19);
     margin: 4px 10px;
   }
 
