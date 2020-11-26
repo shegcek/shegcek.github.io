@@ -10,7 +10,7 @@ html{
 }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #252222;
 }
 
@@ -23,7 +23,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -151,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 16px;
   font-weight: 300;
-  font-family: 'Josefin Sans';
+  font-family: 'Poppins', sans-serif;
   z-index: 149;
 
 }
@@ -306,7 +307,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
-  font-family:'Josefin Sans';
+  font-family: 'Poppins', sans-serif;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
@@ -391,7 +392,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
   line-height: 56px;
   color: rgb(192, 176, 176);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
   text-align: center;
   padding-bottom: 30px;
 
@@ -400,15 +402,15 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
  font-size: 40px;
- font-family: Georgia, 'Times New Roman', Times, serif;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
  padding-bottom: 20px;
-letter-spacing: 1px;
 
 }
 
 .btn-get-started {
   margin-top:20px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
@@ -464,19 +466,21 @@ letter-spacing: 1px;
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 540px) {
   #hero .hero-img img {
     width: 80%;
   }
   #hero h1{
     font-size: 55px;
     line-height:1.5;
-    padding: 2%;
+    padding: 4%;
+    margin-bottom: 0;
     text-align: center;
   }
   #hero h2{
     font-size: 20px;
     line-height: 1;
+    margin-top: 10px;
   }
  .btn-get-started {
     font-size: 13px;
@@ -607,7 +611,8 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
   color: royalblue;
 
 }
@@ -634,8 +639,8 @@ section {
   margin: 0;
   margin: 0;
   font-size: 20px;
-  font-weight: 300;
-  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
   color:  #484d50;
 }
 @media (max-width:400px){
@@ -681,7 +686,7 @@ margin: 4px 8px;
  .icon-boxes p {
   font-size: 17px;
   line-height: 1.5;
-  font-family: 'Josefin Sans';
+  font-family: 'Poppins', sans-serif;
   font-weight: 200;
 }
 
@@ -745,6 +750,7 @@ margin: 4px 8px;
   margin-left: 85px;
   line-height: 1.5;
   font-size: 17px;
+  color: black;
 }
 
 @media(max-width:400px){
@@ -897,14 +903,14 @@ margin: 4px 8px;
   background: #fff;
   border-radius: 4px;
   position: relative;
-  font-family: 'Josefin Sans';
+  font-family: 'Poppins', sans-serif;
   font-size: 17px;
 }
 
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 17px;
   line-height: 1.2;
   font-weight: 500;
@@ -1137,7 +1143,7 @@ margin: 4px 8px;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 @media(max-width:400px){
   #footer .footer-top .footer-info h3 {
@@ -1226,7 +1232,7 @@ margin: 4px 8px;
 
 #footer .footer-links h4{
   font-weight: 100;
-  font-family: 'Josefin Sans';
+  font-family: 'Poppins', sans-serif;
 }
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
