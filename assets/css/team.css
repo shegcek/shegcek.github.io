@@ -91,11 +91,11 @@ html, body {
       height: 60px;
       color: #fff;
       text-align: center;
-      background: royalblue;
+      background: rgb(133, 13, 19);
       border: none;
       cursor: pointer;
 }
-.nav >  button:hover{background: royalblue;}
+.nav >  button:hover{background: rgb(133, 13, 19);}
 
 .nav > button:focus {
       border: none;
@@ -162,7 +162,7 @@ html, body {
       height: 40px;
       color: #fff;
       text-align: center;
-      background: royalblue;
+      background: rgb(133, 13, 19);
       border: none;
       cursor: pointer;
       }
