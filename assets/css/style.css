@@ -606,7 +606,7 @@ section {
 
 }
 
-.section-title h2 {
+.section-title h3 {
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 20px;
@@ -617,7 +617,7 @@ section {
 
 }
 
-.section-title h2::after {
+.section-title h3::after {
   content: "";
   width: 120px;
   height: 1px;
@@ -644,8 +644,9 @@ section {
   color:  #484d50;
 }
 @media (max-width:400px){
-.section-title h2{
+.section-title h3{
   font-size:26px;
+  text-align:center;
 }
 
   .section-title p {
