@@ -643,7 +643,7 @@ section {
   font-family: 'Poppins', sans-serif;
   color:  #484d50;
 }
-@media (max-width:400px){
+@media (max-width:540px){
 .section-title h3{
   font-size:26px;
   text-align:center;
