@@ -62,17 +62,19 @@
         }
         
 .sidebar {
-  width: 25%;
-  height: 100vh;
+
   font-size: 0.65em;
+  height: 100vh;
+  width:25%;
+  padding-top: 20px;
 }
 
 .menu {
-  position: relative;
+
   margin: 0 15%;
   text-align: right;
   top: 30%;
-  transform: translateY(-50%);
+
   font-weight: bold;
 }
 
@@ -99,7 +101,7 @@
   opacity: 0.2;
 }
 .menu ul li:not(.active):hover a {
-  color: rgba(255, 255, 255, 0.75);
+  color: #7a1b1b;
 }
 .menu ul li::after {
   content: "";
@@ -109,8 +111,42 @@
   background: black;
   left: 0;
   bottom: 0;
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: linear-gradient(to right, #ac2929, #aa4b4b);
 }
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+  font-family: 'Open Sans',sans-serif;
+  padding: 16px;
+  background: #fff;
+  color:#2b2424 ;
+  font-size: 22px;
+  border-bottom: 2px solid #aa4b4b;
+}
+
+.wrapper .main_content .info{
+  font-family: 'Open Sans',sans-serif;
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+
+
+
+
     </style>
        <!-- ======= Header ======= -->
        <header name="header" id="header" class="fixed-top d-flex align-items-center header-transparent">
@@ -191,35 +227,64 @@
                     <div class="row d-flex justify-content-around">
                         <div class="col-lg-3 text-center">
                             <h3>Stage 1</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum excepturi id voluptas magni rerum debitis commodi eveniet dolorem voluptatibus dolores fuga, quidem alias, corrupti veniam rem dolore. Possimus, optio ipsa?</p>
+                            <p>Registration and Assessmet</p>
                         </div>
                         <div class="lines align-self-center">
                             <div class="circle"></div>
                         </div>
                         <div class="col-lg-3 text-center">
                             <h3>Stage 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum excepturi id voluptas magni rerum debitis commodi eveniet dolorem voluptatibus dolores fuga, quidem alias, corrupti veniam rem dolore. Possimus, optio ipsa?</p>
+                            <p>Mentoring by experts and professionals to help the product take form</p>
                         </div>
                         <div class="lines align-self-center">
                             <div class="circle"></div>
                         </div>
                         <div class="col-lg-3 text-center">
                             <h3>Stage 3</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum excepturi id voluptas magni rerum debitis commodi eveniet dolorem voluptatibus dolores fuga, quidem alias, corrupti veniam rem dolore. Possimus, optio ipsa?</p>
+                            <p>24 hr Makeathon followed by
+                              MVP Presentation.
+                              This is the stage where you
+                              have to build the final
+                              product.</p>
                         </div>
                     </div>
                 </div>
             </section>
-             <aside class="sidebar">
+            <div class="wrapper">
+             <div class="sidebar">
               <div class="menu">
                 <ul>
-                  <li class="active"><a href="#">About</a></li>
+                  <li class="active"><a href="#about">About</a></li>
                   <li><a href="#">Overview</a></li>
                   <li><a href="#">Themes</a></li>
                   <li><a href="#">Prize</a></li>
                 </ul>
               </div>
-            </aside>
+            </div>
+
+            <div class="main_content">
+              <div class="header" id="about">ABOUT</div>  
+              <div class="info">
+                <div><b>WE FOR WE (Women Engineers for Women Entrepreneurs)</b> is a virtual Makethon aimed at bringing together budding women engineers to present solutions to some of the challenges that women, especially newbie entrepreneurs face organised by SHE GCEK in association with Kerala Startup Mission.</div>
+               
+            </div>
+            <div class="header">OVERVIEW</div>  
+            <div class="info">
+              <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
+            
+          </div>
+          <div class="header">THEMES</div>  
+          <div class="info">
+            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
+            
+        </div>
+        <div class="header">PRIZE</div>  
+        <div class="info">
+          <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
+          
+      </div>
+          </div>
+          </div>
                      <!-- ======= Footer ======= -->
 <footer id="footer"  style="font-family: 'Poppins', sans-serif;" name="footer">
     <div class="footer-top">
@@ -263,6 +328,8 @@
               <li><i class="bx bx-chevron-right"></i> <a href="index.html#testimonials-section">Testimonials</a></li>
             </ul>
           </div>
+
+    
       </div>
       </div>
     </div>
