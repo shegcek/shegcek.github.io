@@ -69,6 +69,15 @@
   padding-top: 20px;
 }
 
+@media(max-width:600px){
+  .sidebar{
+    display: none;
+  }
+  .main_content{
+    margin-left: 0px;
+  }
+}
+
 .menu {
 
   margin: 0 15%;
@@ -121,7 +130,14 @@
 
 .wrapper .main_content{
   width: 100%;
-  margin-left: 200px;
+  margin-left: 100px;
+}
+
+@media(max-width:600px){
+  .wrapper .main_content{
+  width: 100%;
+  margin-left: 0px;
+}
 }
 
 .wrapper .main_content .header{
@@ -130,7 +146,6 @@
   background: #fff;
   color:#2b2424 ;
   font-size: 22px;
-  border-bottom: 2px solid #aa4b4b;
 }
 
 .wrapper .main_content .info{
@@ -145,8 +160,32 @@
 }
 
 
-
-
+@media (max-width: 991px) {
+  .responsive > thead th {
+    display: none;
+  }
+  .responsive > tbody td,
+  .responsive > tbody th {
+    display: block;
+  }
+  .responsive > tbody > tr:nth-child(even) td,
+  .responsive > tbody > tr:nth-child(even) th {
+    background-color: #eee;
+  }
+  [row-header] {
+    position: relative;
+    width: 50%;
+    vertical-align: middle;
+  }
+  [row-header]:before {
+    content: attr(row-header);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    width: 50%;
+    padding-right:30px;
+  }
+}
     </style>
        <!-- ======= Header ======= -->
        <header name="header" id="header" class="fixed-top d-flex align-items-center header-transparent">
@@ -221,71 +260,247 @@
               </svg>
           
             </section><!-- End Hero -->
-
             <section>
-                <div class="container">
-                    <div class="row d-flex justify-content-around">
-                        <div class="col-lg-3 text-center">
-                            <h3>Stage 1</h3>
-                            <p>Registration and Assessment</p>
-                        </div>
-                        <div class="lines align-self-center">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="col-lg-3 text-center">
-                            <h3>Stage 2</h3>
-                            <p>Mentoring by experts and professionals to help the product take form</p>
-                        </div>
-                        <div class="lines align-self-center">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="col-lg-3 text-center">
-                            <h3>Stage 3</h3>
-                            <p>24 hr Makeathon followed by
-                              MVP Presentation.
-                              This is the stage where you
-                              have to build the final
-                              product.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <div class="wrapper">
-             <div class="sidebar">
-              <div class="menu">
-                <ul>
-                  <li class="active"><a href="#about">About</a></li>
-                  <li><a href="#">Overview</a></li>
-                  <li><a href="#">Themes</a></li>
-                  <li><a href="#">Prize</a></li>
-                </ul>
+              <div class="container">
+                  <div class="row d-flex justify-content-around">
+                      <div class="col-lg-3 text-center">
+                          <h3>Stage 1</h3>
+                          <p>Registration and Assessmet</p>
+                      </div>
+                      <div class="lines align-self-center">
+                          <div class="circle"></div>
+                      </div>
+                      <div class="col-lg-3 text-center">
+                          <h3>Stage 2</h3>
+                          <p>Mentoring by experts and professionals to help the product take form</p>
+                      </div>
+                      <div class="lines align-self-center">
+                          <div class="circle"></div>
+                      </div>
+                      <div class="col-lg-3 text-center">
+                          <h3>Stage 3</h3>
+                          <p>24 hr Makeathon followed by
+                            MVP Presentation.
+                            This is the stage where you
+                            have to build the final
+                            product.</p>
+                      </div>
+                  </div>
               </div>
+          </section>
+          <div class="wrapper">
+           <div class="sidebar">
+            <div class="menu">
+              <ul>
+                <li class="active"><a href="#about-contest">About</a></li>
+                <li><a href="#team">Teams</a></li>
+                <li><a href="#rules">Rules</a></li>
+                <li><a href="#mentors">Mentors</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main_content">
+            <div class="header" id="about-contest">About</div>  
+            <div class="info">
+              <div><b>WE FOR WE (Women Engineers for Women Entrepreneurs)</b> is a virtual Makethon aimed at bringing together budding women engineers to present solutions to some of the challenges that women, especially newbie entrepreneurs face organised by SHE GCEK in association with Kerala Startup Mission.</div>
+             
+          </div>
+          <div class="header" id="team">Teams</div>  
+          <div class="info">
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Team</th>
+                    <th>Members</th>
+                    <th>Theme</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>NOUFIYA NAZRIN P N, SAMEESHA T S, 
+                      AMEESHA M A</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Sapna Narayan</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Yaksha V, Shubha </td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Table cell</td>
+                    <td>Pournami K K </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Arundhathi Krishna, Aparna Shibu, Saranya Krishnan</td>
+                    <td>Application</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Mitali Raghwani, Saylee bhakre </td>
+                    <td>Application</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Nandhitha krishna. R</td>
+                    <td>Robotics/Embedded system</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Arsha B Anil, Aswathi B, Navami P S, Anu Roy Isaac</td>
+                    <td>Robotics/Embedded system</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Meghana T V, Akshaya P </td>
+                    <td>Application</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Megha ajith kumar</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>Yogita R Nair , Sruthi I. R, Tinji Martin, Sarath Kumar T. A</td>
+                    <td>Application</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>Vidya G Mohan, Amrutha</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>Parvathy M S</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Nikhila Elizabeth Shaji, Nikita Ani, Sandra Unnikrishnan</td>
+                    <td>App/Webapp</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>K.P.LINIJA, Arpitha Das,Divya.G, Mahalakshmi,Evangeline</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>SHIBINA.P.S, Sini.S
+                      Aswani.R
+                      Sreelakshmi.A
+                      Sneha.M
+                      Ahalya.N.O</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>Neethu Balachandran, Jasmine Jolly,Devapriya C G,Sandra Elizabeth,Nandana Nandakumar, Mishana Mohammed</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>Akshaya Gopan J</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Vidya Krishna, Surya Prasad
+                      Fathima Fazal
+                      Silpa Mohan</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Gouri Bhaskar, Sandra V Nair , Sangeetha S , Sitalakshmi S</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>Kavya s nair, Aparna prakash
+                      Athira r krishna</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Samyucktha Ramesh </td>
+                    <td>App</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Afnitha.K.A, Ashna, ashwathi,hizana,fathima,mubeena</td>
+                    <td>App</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Adithya A K, Athira  Mohan</td>
+                    <td>Website</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Meera J, Nayina Elsa Aniyan, Rizwana Nazar, Anulekshmi A I, Sreelekha A</td>
+                    <td>Website</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">26</th>
+                    <td>Fadia Haris, Sukritha K K, Aswathy Saji,Namitha Augustine</td>
+                    <td>Website</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">27</th>
+                    <td>Anisha T Anilkumar, Anna Rose Pallivathuckal, Ann Rose Cherian, Diya Denny, Namitha Santhosh</td>
+                    <td>App/WebApp</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">28</th>
+                    <td>Meghna rathore , Dr. Vidhya Bhati,  akshat garg</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">29</th>
+                    <td>SREYA MATHEW, SREEYUKTHA
+                      APARNA VISAKH
+                      DEEPTHI GIRI</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">30</th>
+                    <td>Sruthy M L, Jaimy Simon </td>
+                    <td>App</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">31</th>
+                    <td>Reshma B, Krishna M Nampoothiri, Preethi Micle, Sneha Ann Johnson </td>
+                    <td>App</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
 
-            <div class="main_content">
-              <div class="header" id="about">ABOUT</div>  
-              <div class="info">
-                <div><b>WE FOR WE (Women Engineers for Women Entrepreneurs)</b> is a virtual Makethon aimed at bringing together budding women engineers to present solutions to some of the challenges that women, especially newbie entrepreneurs face organised by SHE GCEK in association with Kerala Startup Mission.</div>
-               
-            </div>
-            <div class="header">OVERVIEW</div>  
-            <div class="info">
-              <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
-            
-          </div>
-          <div class="header">THEMES</div>  
-          <div class="info">
-            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
-            
+          
         </div>
-        <div class="header">PRIZE</div>  
+        <div class="header" id="rules">Rules</div>  
         <div class="info">
           <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
           
       </div>
-          </div>
-          </div>
-                     <!-- ======= Footer ======= -->
+      <div class="header" id="mentors">Mentors</div>  
+      <div class="info">
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
+        
+    </div>
+        </div>
+        </div>
 <footer id="footer"  style="font-family: 'Poppins', sans-serif;" name="footer">
     <div class="footer-top">
       <div class="container">
@@ -328,8 +543,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="index.html#testimonials-section">Testimonials</a></li>
             </ul>
           </div>
-
-    
       </div>
       </div>
     </div>
