@@ -60,6 +60,57 @@
             margin: auto;
             border-radius: 50%;
         }
+        
+.sidebar {
+  width: 25%;
+  height: 100vh;
+  font-size: 0.65em;
+}
+
+.menu {
+  position: relative;
+  margin: 0 15%;
+  text-align: right;
+  top: 30%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+.menu ul {
+  list-style: none;
+}
+.menu ul li {
+  position: relative;
+  margin: 3.2em 0;
+}
+.menu ul li a {
+  line-height: 5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.4em;
+  color: #000000;
+  display: block;
+  transition: all ease-out 300ms;
+}
+.menu ul li.active a {
+  color: #000000;;
+}
+.menu ul li:not(.active)::after {
+  opacity: 0.2;
+}
+.menu ul li:not(.active):hover a {
+  color: rgba(255, 255, 255, 0.75);
+}
+.menu ul li::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  background: black;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+}
     </style>
        <!-- ======= Header ======= -->
        <header name="header" id="header" class="fixed-top d-flex align-items-center header-transparent">
@@ -159,6 +210,16 @@
                     </div>
                 </div>
             </section>
+             <aside class="sidebar">
+              <div class="menu">
+                <ul>
+                  <li class="active"><a href="#">About</a></li>
+                  <li><a href="#">Overview</a></li>
+                  <li><a href="#">Themes</a></li>
+                  <li><a href="#">Prize</a></li>
+                </ul>
+              </div>
+            </aside>
                      <!-- ======= Footer ======= -->
 <footer id="footer"  style="font-family: 'Poppins', sans-serif;" name="footer">
     <div class="footer-top">
