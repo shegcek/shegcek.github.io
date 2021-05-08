@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: rgb(243, 239, 239);
   padding: 10px 20px;
-  font-weight: 500;
+  font-\ight: 500;
   outline: none;
   font-family: 'Poppins', sans-serif;
 }
@@ -782,7 +782,7 @@ margin: 4px 8px;
 }
 
 .upcomingimg {
-  background: url("../img/we.jpeg") center center no-repeat;
+  background: url("../img/WE4U.jpeg") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
