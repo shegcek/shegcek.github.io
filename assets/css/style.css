@@ -782,7 +782,13 @@ margin: 4px 8px;
 }
 
 .upcomingimg {
-  background: url("../img/WE4U.jpeg") center center no-repeat;
+  background: url("../img/getfit.jpeg") center center no-repeat;
+  background-size: contain;
+  min-height: 300px;
+}
+
+.upcomingimg1 {
+  background: url("../img/we4u.jpg") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
