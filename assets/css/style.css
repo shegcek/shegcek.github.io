@@ -1310,4 +1310,27 @@ display: inline-block;
   }
 }
 
+.round1{
+  height:600px;width:900px;
+}
+.round1mob{
+  display: none;
+}
+@media(max-width:575px){
+  .vdo{
+    width:280px; 
+   height: auto;
+   margin-left: 20px;
+   margin-right: 20px;
+  }
+  .round1{
+   display:none;
+
+  }
+  .round1mob{
+    display:block;
+    height:350px;width:250px;
+
+  }
+}
 
