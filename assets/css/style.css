@@ -1320,8 +1320,8 @@ display: inline-block;
   .vdo{
     width:350px; 
    height: auto;
-   margin-left: 20px;
-   margin-right: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
   }
   .round1{
    display:none;
