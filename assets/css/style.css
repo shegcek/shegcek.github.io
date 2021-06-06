@@ -1332,12 +1332,12 @@ display: inline-block;
   .round1mob{
     display:block;
     height:350px;width:250px;
-    margin-left:60px;
+    margin-left:100px;
 
   }
     .winnersmob{
     display:block;
-    height:250px;width:350px;
+    height:300px;width:450px;
 
   }
   .winnersheading{display:block;}
