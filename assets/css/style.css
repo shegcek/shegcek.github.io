@@ -1316,6 +1316,7 @@ display: inline-block;
 .round1mob{
   display: none;
 }
+.winnersmob{display:none;}
 .winnersheading{display:none;}
 .shortlistheading{display:none;}
 @media(max-width:575px){
