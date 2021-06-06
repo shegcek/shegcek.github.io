@@ -1316,7 +1316,10 @@ display: inline-block;
 .round1mob{
   display: none;
 }
-.winnersmob{display:none;}
+ .winners{
+  height:600px;width:900px;
+  }
+
 .winnersheading{display:none;}
 .shortlistheading{display:none;}
 @media(max-width:575px){
@@ -1336,10 +1339,8 @@ display: inline-block;
     margin-left:100px;
 
   }
-    .winnersmob{
-    display:block;
-    height:200px;width:250px;
-
+  .winners{
+  height:300px;width:450px;
   }
   .winnersheading{display:block;}
 .shortlistheading{display:block;}
