@@ -1336,12 +1336,12 @@ display: inline-block;
   }
   .round1mob{
     display:block;
-    height:350px;width:250px;
+    height:350px;width:300px;
     margin-left:100px;
 
   }
   .winners{
-  height:auto;width:280px;
+  height:auto;width:320px;
     margin-left:20px;
   }
   .winnersheading{display:block;}
