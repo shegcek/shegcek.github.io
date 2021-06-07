@@ -1317,6 +1317,7 @@ display: inline-block;
   display: none;
 }
  .winners{
+   margin-left:220px;
   height:600px;width:900px;
   }
 
