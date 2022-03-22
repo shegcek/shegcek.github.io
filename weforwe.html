@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>WE for WE</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" href="testimonials/css/style.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/news.css" rel="stylesheet">
+  
+    
+
+</head>
+    
+<body>
+    <style>
+        .lines{
+            width: 130px;
+            height: 45px;
+            position: relative;
+        }
+        .lines::before,.lines::after{
+            content: '';
+            position: absolute;
+            width: 45%;
+            top: 45%;
+            background: #000000;
+            margin: auto;
+            height: 4px;
+        }
+        .lines::before{
+            right: 0;
+        }
+        .lines::after{
+            left: 0;
+        }
+        .circle{
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border: 2px solid #000000;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border-radius: 50%;
+        }
+      
+        
+
+
+        
+.sidebar {
+
+  font-size: 0.65em;
+  height: 100vh;
+  width:25%;
+position: sticky;
+top:0;
+}
+
+@media(max-width:600px){
+  .sidebar{
+    display: none;
+  }
+  .main_content{
+    margin-left: 0px;
+  }
+}
+
+.menu {
+
+  margin: 0 15%;
+  text-align: right;
+  top: 10%;
+position:relative;
+  font-weight: bold;
+}
+
+.menu ul {
+  list-style: none;
+}
+.menu ul li {
+  position: relative;
+  margin: 3.2em 0;
+}
+.menu ul li a {
+  line-height: 5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.4em;
+  color: #000000;
+  display: block;
+  transition: all ease-out 300ms;
+}
+.menu ul li.active a {
+  color: #000000;;
+}
+.menu ul li:not(.active)::after {
+  opacity: 0.2;
+}
+.menu ul li:not(.active):hover a {
+  color: #7a1b1b;
+}
+.menu ul li::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  background: black;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(to right, #ac2929, #aa4b4b);
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+    font-family:'Poppins',sans-serif;
+    
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 100px;
+}
+
+@media(max-width:600px){
+  .wrapper .main_content{
+  width: 100%;
+  margin-left: 0px;
+}
+}
+
+.wrapper .main_content .header{
+
+  padding: 16px;
+  background: #fff;
+  color:#2b2424;
+  font-size: 22px;
+}
+
+.wrapper .main_content .info{
+
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+    font-size:16px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+        @media (max-width: 500px){
+        .wrapper .main_content .header{
+
+  font-size: 20px;
+}
+
+.wrapper .main_content .info{
+
+    font-size:14px;
+}
+        }
+
+@media (max-width: 991px) {
+  .responsive > thead th {
+    display: none;
+  }
+  .responsive > tbody td,
+  .responsive > tbody th {
+    display: block;
+  }
+  .responsive > tbody > tr:nth-child(even) td,
+  .responsive > tbody > tr:nth-child(even) th {
+    background-color: #eee;
+  }
+  [row-header] {
+    position: relative;
+    width: 50%;
+    vertical-align: middle;
+  }
+  [row-header]:before {
+    content: attr(row-header);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    width: 50%;
+    padding-right:30px;
+  }
+}
+        
+        .table td{
+        color:#444141;
+        } 
+        
+        .h3{
+            font-family:'Poppins';
+     
+        }
+        .p{
+            font-family:'Poppins';
+        }
+        @media(max-width:500px){
+             .h3{
+     font-size:20px;
+     
+        }
+        .p{
+            font-size:16px;
+        }
+            
+        }
+    </style>
+           <!-- ======= Header ======= -->
+           <header name="header" id="header" class="fixed-top d-flex align-items-center header-transparent">
+            <div class="container d-flex align-items-center">
+             <div class="logo mr-auto">
+             
+                 <a href="index.html"><img style="border-radius:50%" src="assets/img/logo.jpg" alt="" class="img-fluid"></a>
+              </div>
+        
+              <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                  <li class="active over"><a href="index.html">Home</a></li>
+                   <li class="drop-down over"><a href="">About</a>
+                    <ul>
+                      <li class="drop-down over"><a href="execom_2021.html">Our Team</a>
+                        <ul>
+                          <li><a href="execom_2021.html">Execom 2021-22</a></li>
+                          <li><a href="execom_2020.html">Execom 2020-21</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="ourinitiatives.html">Our Initiatives</a></li>
+                      <li><a href="https://www.youtube.com/channel/UCVuoABpmOItxsfA4edwEGZA">You Tube</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                  </li>
+                  <li class="drop-down over"><a href="events.html">Events</a>
+                    <ul>
+                      <li><a href="ignite.html">Ignite 2021</a></li>
+                      <li><a href="devweb.html">&lt;Dev-Web&gt;</a></li>
+                      <li><a href="Lockdown_series.html">Lockdown Talk Series</a></li>
+                      <li><a href="weforwe.html">WE for WE</a></li>
+                      <li><a href=" we4u.html">WE4U</a></li>
+                      <li><a href="events.html#Getfitwithshe">Get Fit With SHE</a></li>
+                      <li><a href="events.html#icebreaking">Icebreaking Session</a></li>
+                      <li><a href="events.html#lead">Lead the Leaders</a></li>
+                      <li><a href="events.html#web">Web Dev Bootcamp</a></li>
+                      <li><a href="events.html#takedebait">Take De Bait</a></li>
+                      <li><a href="events.html#CyberSecurityAwareness">Cyber Security Awareness</a></li>
+                      <li><a href="events.html#iniSHEate">iniSHEate</a></li>
+                      <li><a href="She_talks.html">She Talks</a></li>  
+                      
+                      </ul></li>
+                  <li class="drop-down over"><a href="updates.html">Updates</a>
+                    <ul class="under">
+                      <li><a href="updates.html#calendar">Calendar</a></li>
+                      <li><a href="updates.html#notifications">Notifications</a></li>
+                      <li><a href="updates.html#achievements">Achievements</a></li>
+                    </ul>
+                  </li>
+                  <li class="over"><a href="#footer">Contact</a></li>
+                  <li class="drop-down under"><a href="">Resources</a>
+                    <ul class="under">        
+                      <li><a href="https://www.youtube.com/channel/UCVuoABpmOItxsfA4edwEGZA">Youtube Videos</a></li>        
+                    </ul>
+                  </li>
+             
+                </ul>
+              </nav><!-- .nav-menu -->
+            </div>
+          </header><!-- End Header -->
+            <!-- ======= Hero Section ======= -->
+            <section id="hero" >
+          
+              <div class="container text-center" style="min-height:410px;">
+    <div class="row">
+
+      <div data-aos="zoom-out" style="margin: 70px auto auto auto;">
+
+        <h1 style="letter-spacing: 2px;padding-top: 50px;"><span>WE for WE</span> </h1>
+      </div>
+    </div>
+  </div>
+              <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+                <defs>
+                  <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+                </defs>
+                <g class="wave1">
+                  <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+                </g>
+                <g class="wave2">
+                  <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+                </g>
+                <g class="wave3">
+                  <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+                </g>
+              </svg>
+          
+            </section><!-- End Hero -->
+            <section>
+              <div class="container">
+                  <div class="row d-flex justify-content-around">
+                      <div class="col-lg-3 text-center">
+                          <h3 class="h3">Stage 1</h3>
+                          <br>
+                          <p class="p">Registration and Assessment</p>
+                      </div>
+                      <div class="lines align-self-center">
+                          <div class="circle"></div>
+                      </div>
+                      <div class="col-lg-3 text-center">
+                          <h3 class="h3">Stage 2</h3>
+                          <br>
+                          <p class="p">Mentoring by experts and professionals to help the product take form</p>
+                      </div>
+                      <div class="lines align-self-center">
+                          <div class="circle"></div>
+                      </div>
+                      <div class="col-lg-3 text-center">
+                          <h3 class="h3">Stage 3</h3>
+                          <br>
+                          <p class="p">24 hr Makeathon followed by
+                            MVP Presentation.
+                            This is the stage where you
+                            have to build the final
+                            product.</p>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <div class="wrapper">
+           <div class="sidebar">
+            <div class="menu"  style="font-size:14px;">
+              <ul >
+                <li class="active""><a href="#about-contest">About</a></li>
+                <li><a href="#themes">Themes</a></li>
+                <li><a href="#team">Teams</a></li>
+       
+                <li><a href="#mentors">Mentors</a></li>
+                   <li><a href="#faq">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="main_content" id="about-contest">
+            <div class="header" >About</div>  
+            <div class="info">
+              <div><b>WE FOR WE (Women Engineers for Women Entrepreneurs)</b> is a virtual Makeathon organized by SHE GCEK in association with <b>Kerala Startup Mission</b> aimed at bringing together budding women engineers to present solutions to some of the challenges that women, especially newbie entrepreneurs face.</div>
+             
+          </div>
+              
+             <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
+              <div class="header" id="themes">Themes</div>  
+<div class="info">
+            <ul>
+                <li>
+                    <b>SHE SUPPORTS FOR WOMEN SMALL BUSINESS OWNERS</b>
+                    <br>
+                    Small business owners who are
+restricted to use just social
+media for selling their
+services/goods face many
+challenges in terms of delivery of
+products,promotion, ads and
+visibility. Solutions should focus
+
+on addressing these issues-
+either individually or wholly.
+                </li><br>
+                <li>
+                    <b>  WOMEN SAFETY SOLUTIONS</b><br>
+Even though there are existing
+solutions to ensure the safety of
+women, many compromise on
+ease of use, reliability and fast
+response to immediate threats.
+Solutions should focus on being
+unrestrictive, safe to use and
+                    ensure privacy to users.</li><br>
+                <li>
+              <b>  SKILL UP FOR WOMEN
+                  FREELANCERS - SHELANCERS</b><br>
+After taking a career break,
+women find themselves not
+having the necessary skills and
+tools required to re-enter the
+workforce. Solutions should
+focus on addressing this issue
+for women re-entering the
+workforce as well as those who
+wish to start from scratch to
+learn a skill.
+                </li>
+              </ul>
+              </div>
+                <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
+          <div class="header" id="team">Teams</div>  
+          <div class="info">
+            <div class="table-responsive">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Team</th>
+                    <th>Members</th>
+                    <th>Theme</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>NOUFIYA NAZRIN P N, SAMEESHA T S, 
+                      AMEESHA M A</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Sapna Narayan</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Yaksha V, Shubha </td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Pournami K K </td>
+                    <td>Application</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Arundhathi Krishna, Aparna Shibu, Saranya Krishnan</td>
+                    <td>Application</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Mitali Raghwani, Saylee bhakre </td>
+                    <td>Application</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Nandhitha krishna. R</td>
+                    <td>Robotics/Embedded system</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Arsha B Anil, Aswathi B, Navami P S, Anu Roy Isaac</td>
+                    <td>Robotics/Embedded system</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Meghana T V, Akshaya P </td>
+                    <td>Application</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Megha ajith kumar</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>Yogita R Nair , Sruthi I. R, Tinji Martin, Sarath Kumar T. A</td>
+                    <td>Application</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>Vidya G Mohan, Amrutha</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>Parvathy M S</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Nikhila Elizabeth Shaji, Nikita Ani, Sandra Unnikrishnan</td>
+                    <td>App/Webapp</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>K.P.LINIJA, Arpitha Das,Divya.G, Mahalakshmi,Evangeline</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>SHIBINA.P.S, Sini.S
+                      Aswani.R
+                      Sreelakshmi.A
+                      Sneha.M
+                      Ahalya.N.O</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>Neethu Balachandran, Jasmine Jolly,Devapriya C G,Sandra Elizabeth,Nandana Nandakumar, Mishana Mohammed</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>Akshaya Gopan J</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Vidya Krishna, Surya Prasad
+                      Fathima Fazal
+                      Silpa Mohan</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Gouri Bhaskar, Sandra V Nair , Sangeetha S , Sitalakshmi S</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>Kavya s nair, Aparna prakash
+                      Athira r krishna</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Samyucktha Ramesh </td>
+                    <td>App</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Afnitha.K.A, Ashna, ashwathi,hizana,fathima,mubeena</td>
+                    <td>App</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Adithya A K, Athira  Mohan</td>
+                    <td>Website</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Meera J, Nayina Elsa Aniyan, Rizwana Nazar, Anulekshmi A I, Sreelekha A</td>
+                    <td>Website</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">26</th>
+                    <td>Fadia Haris, Sukritha K K, Aswathy Saji,Namitha Augustine</td>
+                    <td>Website</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">27</th>
+                    <td>Anisha T Anilkumar, Anna Rose Pallivathuckal, Ann Rose Cherian, Diya Denny, Namitha Santhosh</td>
+                    <td>App/WebApp</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">28</th>
+                    <td>Meghna rathore , Dr. Vidhya Bhati,  akshat garg</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">29</th>
+                    <td>SREYA MATHEW, SREEYUKTHA
+                      APARNA VISAKH
+                      DEEPTHI GIRI</td>
+                    <td>General</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">30</th>
+                    <td>Sruthy M L, Jaimy Simon </td>
+                    <td>App</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">31</th>
+                    <td>Reshma B, Krishna M Nampoothiri, Preethi Micle, Sneha Ann Johnson </td>
+                    <td>App</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          
+        </div>
+        
+     <!--<div class="header" id="mentors">Mentors</div>  
+      <div class="info">
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
+        
+    </div>*/-->
+                <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
+                <div class="header" id="faq">FAQ</div>  
+        <div class="info">
+           <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="faq-list" >
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1"> What is WE FOR WE?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                <p style="font-family: 'Poppins', sans-serif;">
+                     <ul>
+                     <li>
+                         An inter-collegiate Makeathon organized by SHE-Gcek in association with Kerala Startup Mission. 
+                     </li>
+                          <li>
+                         Exclusive to female engineering students.
+                     </li>
+                     </ul>
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed"> What is the expected outcome?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                <p style="font-family: 'Poppins', sans-serif;">    
+            <ul>
+              <li>Converting your idea into full-fledged product/service that is market-ready.</li>
+
+            </ul>
+          </p>
+              </div>
+            </li>
+            
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">What is the Theme? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                <p style="font-family: 'Poppins', sans-serif;">
+                  <ul >
+                    <li>We aim to bring together budding women engineers to present solutions to some of the challenges that women, especially newbies entrepreneurs face.</li>
+                   
+
+                  </ul>
+                </p>
+              </div>
+            </li>
+
+           
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">What are the benefits of joining the program?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+               <ul>
+                   <li>
+                       <b>
+                       Startup Incubation
+                       </b>
+                       <br>
+                       Selected teams will be considered for startup incubation from Kerala Startup Mission.
+                   </li>
+                     <li>
+                       <b>
+                      Mentorship
+                       </b>
+                       <br>
+Guidance and mentoring will be provided to the selected teams inorder to estabilish their product.
+                   </li>
+                  </ul>
+              </div>
+            </li>
+            
+           
+          </ul>
+        </div>
+
+      </div>
+    </section>
+      </div>
+              
+        </div>
+        </div>
+<footer id="footer"  style="font-family: 'Poppins', sans-serif;" name="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-4">
+            <div class="footer-info">
+            
+              
+        
+
+         <h3>SHE GCEK</h3>
+                 <img  src="assets/img/GCEK_LOGO.png" class="gcek_logo logo mr-auto">
+          <img src="assets/img/logo.jpg" class="gcek_logo logo mr-auto" style="margin-left:10px ;">
+              <p>
+                Govt. College Of Engineering<br>
+                Mangattuparamba, Parassinikkadavu (P.O)<br>
+                Kannur-670 563, Kerala, India. 
+                <br>
+             
+                <strong>Email:</strong> shegcek@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://www.facebook.com/shegcek/?rc=p" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/she_gcek/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/she-gcek" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+   
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-4 footer-links" >
+            <h4>Useful Links</h4>
+            <ul >
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="events.html">Events</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="updates.html#notifications">Notifications</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="faq.html">FAQ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#testimonials-section">Testimonials</a></li>
+            </ul>
+          </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span></span></strong>. All Rights Reserved
+      </div>
+      
+    </div>
+  </footer><!-- End Footer -->
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  
+<!-- Vendor JS Files -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+<script src="assets/vendor/counterup/counterup.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+
+
+<!-- Template Main JS File news-->
+<script src="testimonials/js/jquery-3.3.1.min.js"></script>
+<script
+src="https://code.jquery.com/jquery-3.5.1.js"
+integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+crossorigin="anonymous"></script>
+<script src="testimonials/js/owl.carousel.min.js"></script>
+<script src="testimonials/js/main.js"></script>
+
+</body>
+</html>
+</head>
+
+
