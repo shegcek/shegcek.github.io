@@ -1311,18 +1311,17 @@ display: inline-block;
 }
 
 .round1{
-  height:600px;width:900px;
+  height:auto;width:900px;
+}
+.round2{
+  height: auto;width: 500px;
 }
 .round1mob{
   display: none;
 }
  .winners{
-   margin-left:220px;
-  height:600px;width:900px;
+  height:auto;width:900px;
   }
-
-.winnersheading{display:none;}
-.shortlistheading{display:none;}
 @media(max-width:575px){
   .vdo{
     width:350px; 
@@ -1331,18 +1330,14 @@ display: inline-block;
    margin-right: 10px;
   }
   .round1{
-   display:none;
+    height:auto;width:320px;
 
   }
-  .round1mob{
-    display:block;
-    height:350px;width:300px;
-    margin-left:80px;
-
+  .round2{
+    height: auto;width: 320px;
   }
   .winners{
   height:auto;width:320px;
-    margin-left:20px;
   }
   .winnersheading{display:block;}
 .shortlistheading{display:block;}

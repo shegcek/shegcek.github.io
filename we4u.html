@@ -142,7 +142,6 @@ position:relative;
 
 .wrapper .main_content{
   width: 100%;
-  margin-left: 100px;
 }
 
 @media(max-width:600px){
@@ -152,17 +151,27 @@ position:relative;
 }
 }
 
+.wrapper .main_content .subcontent{
+  margin: 1.5rem;
+  text-align: justify;
+}
+
 .wrapper .main_content .header{
 
   padding: 16px;
   background: #fff;
-  color:#2b2424;
+  color:#000000;
   font-size: 22px;
+}
+
+.wrapper .main_content .award{
+  font-size: 2rem;
 }
 
 .wrapper .main_content .info{
 
   margin: 20px;
+  text-align: justify;
   color: #717171;
   line-height: 25px;
     font-size:16px;
@@ -175,6 +184,10 @@ position:relative;
         .wrapper .main_content .header{
 
   font-size: 20px;
+}
+
+.wrapper .main_content .award{
+  font-size: 1.7rem;
 }
 
 .wrapper .main_content .info{
@@ -323,16 +336,17 @@ position:relative;
           <div class="wrapper">
         
            
-          <div class="main_content" id="about-contest">
-            <center>
-            
-                <video class="vdo" style="margin-top:100px" width="1000" poster="assets\img\Thumbnail.png" controls>
-                   <source src="assets\videos\we4u.mp4" type="video/mp4">
-              
-                   Your browser does not support HTML video.
-             </video> </center>
-            <div class="header" style="margin-left:10px;margin-top:70px"><b>About</b></div>  
-            <div class="info" style="  margin-left: 20px;margin-right:50px;margin-bottom: 100px;text-align: justify;" >
+          <div class="main_content" id="about-contest">         
+                <center>
+                  <video class="vdo" style="margin-top:100px" width="1000" poster="assets\img\Thumbnail.png" controls>
+                    <source src="assets\videos\we4u.mp4" type="video/mp4">
+               
+                    Your browser does not support HTML video.
+                 </video>
+                </center>
+            <div class="subcontent">
+              <div class="header" style="margin-left:10px;margin-top:70px"><b>About</b></div>  
+            <div class="info" >
               <div>The <B>We4U Best Outgoing Woman Engineer Award </B>constituted by WE-Connect, the group of alumna of Gcek, is presented each year to recognize and celebrate achievement of outstanding female final year students.
                 Five individuals will be
                 selected, one from each
@@ -340,54 +354,65 @@ position:relative;
                 annually to receive the
                 award which includes a
                 cash prize and a memento.
-            </div>
+              </div>
              
-          </div>
+            </div>
+            </div>
               
 
                 <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
-                <div class="header" style="margin-left:10px;margin-top:70px"><b>Criteria</b></div>  
-                <div class="info" style="  margin-left: 20px;margin-right:50px;margin-bottom: 100px;text-align: justify;" >
-                  <div>
-                      <ul>
-                          <li><b>Academics</b></li>
-                  
-                          Displays excellence in academics with at least 6.0 as the CGPA. With 7.5 and above as 100% , 7.0 – 7.49 as 90%, 6.5 – 6.95 as 80%, 6.0 – 6.45 as 70% weightages.
-                      <br><br>
-                          <li><b>Leadership</b></li>
-                          Initiative in organizing events or conferences at college and intercollegiate levels.
+                <div class="subcontent">
+                  <div class="header"><b>Criteria</b></div>  
+                  <div class="info" style="  margin-left: 20px;margin-bottom: 100px;text-align: justify;" >
+                    <div>
+                        <ul>
+                            <li><b>Academics</b></li>
+                    
+                            Displays excellence in academics with at least 6.0 as the CGPA. With 7.5 and above as 100% , 7.0 – 7.49 as 90%, 6.5 – 6.95 as 80%, 6.0 – 6.45 as 70% weightages.
                         <br><br>
-
-                          <li><b>Extra-curricular</b></li>
-                          Participation or winning
-                          in cultural, sports or tech
-                          events activities
-                          representing the
-                          college. KTU points will
-                          have additional
-                          weightage.
+                            <li><b>Leadership</b></li>
+                            Initiative in organizing events or conferences at college and intercollegiate levels.
                           <br><br>
-                          <li><b>Social</b></li>
-                          Contributing to
-activities that help in
-making society a better
-place and connect with
-people.
-                      </ul>
+  
+                            <li><b>Extra-curricular</b></li>
+                            Participation or winning
+                            in cultural, sports or tech
+                            events activities
+                            representing the
+                            college. KTU points will
+                            have additional
+                            weightage.
+                            <br><br>
+                            <li><b>Social</b></li>
+                            Contributing to
+                            activities that help in
+                            making society a better
+                            place and connect with
+                            people.
+                        </ul>
+                  </div>
+                   
                 </div>
-                 
-              </div>
+                </div>
               
               <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
-       <div class="header shortlistheading" style="margin-left:10px;margin-top:70px"><b> First Round Shortlist</b></div>  
-      <img src="assets\img\Round1.jpeg" class="round1" style="margin-left: 220px;margin-bottom: 140px;margin-top: 60px;">
-      <img src="assets\img\Round1mob.jpeg" class="round1mob" style="margin-left: 40px;margin-bottom: 140px;margin-top: 60px;">
+      <div class="header award" style="text-align: center"><b>WE4U Award 2021</b></div> 
+      <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
+      <div class="header shortlistheading" style="text-align: center;"><b> First Round Shortlist</b></div>  
+      <div style="display: block;text-align: center;"><img src="assets\img\Round1.jpeg" class="round1" style="margin-bottom: 60px;margin-top: 60px;"></div>
      
- <div class="header winnersheading" style="margin-left:10px;margin-top:70px"><b>Winners</b></div>  
-      <img src="assets\img\we4uwinners.jpeg" class="winners" style="margin-bottom: 140px;margin-top: 40px;">
+      <div class="header winnersheading" style="text-align: center;"><b>Winners</b></div>  
+      <div style="display: block;text-align: center;"><img src="assets\img\we4uwinners.jpeg" class="winners" style="margin-bottom: 60px;margin-top: 40px;"></div>
      
-
-              
+      <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
+      <div class="header award" style="text-align: center;"><b>WE4U Award 2022</b></div> 
+      <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
+      <div class="header shortlistheading" style="text-align: center;"><b> First Round Shortlist</b></div>  
+      <div style="display: block;text-align: center;"><img src="assets/img/we4ufinalists2.jpeg" class="round2" style="margin-bottom: 60px;margin-top: 60px;"></div>
+     
+      <div class="header winnersheading" style="text-align: center;"><b>Winners</b></div>  
+      <div style="display: block;text-align: center;"><img src="assets/img/we4uwinners2.jpeg" class="winners" style="margin-bottom: 60px;margin-top: 40px;"></div>
+        
         </div>
         </div>
 <footer id="footer"  style="font-family: 'Poppins', sans-serif;" name="footer">
