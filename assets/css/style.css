@@ -1322,9 +1322,29 @@ display: inline-block;
  .winners{
   height:auto;width:900px;
   }
+
+@media (max-width:900px){
+  .vdo{
+    width:90%; 
+   height: auto;
+   margin-left: 10px;
+   margin-right: 10px;
+  }
+  .round1{
+    height:auto;width:500px;
+
+  }
+  .round2{
+    height: auto;width: 500px;
+  }
+  .winners{
+  height:auto;width:500px;
+  }
+}
+
 @media(max-width:575px){
   .vdo{
-    width:350px; 
+    width:90%; 
    height: auto;
    margin-left: 10px;
    margin-right: 10px;
