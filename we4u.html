@@ -108,7 +108,7 @@ position:relative;
   line-height: 5em;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.1em;
   color: #000000;
   display: block;
   transition: all ease-out 300ms;
@@ -142,6 +142,7 @@ position:relative;
 
 .wrapper .main_content{
   width: 100%;
+  margin-left: 100px;
 }
 
 @media(max-width:600px){
@@ -151,27 +152,17 @@ position:relative;
 }
 }
 
-.wrapper .main_content .subcontent{
-  margin: 1.5rem;
-  text-align: justify;
-}
-
 .wrapper .main_content .header{
 
   padding: 16px;
   background: #fff;
-  color:#000000;
+  color:#2b2424;
   font-size: 22px;
-}
-
-.wrapper .main_content .award{
-  font-size: 2rem;
 }
 
 .wrapper .main_content .info{
 
   margin: 20px;
-  text-align: justify;
   color: #717171;
   line-height: 25px;
     font-size:16px;
@@ -184,10 +175,6 @@ position:relative;
         .wrapper .main_content .header{
 
   font-size: 20px;
-}
-
-.wrapper .main_content .award{
-  font-size: 1.7rem;
 }
 
 .wrapper .main_content .info{
@@ -269,9 +256,11 @@ position:relative;
                       <li><a href="faq.html">FAQ</a></li>
                     </ul>
                   </li>
-                  <li class="drop-down over"><a href="events.html">Events</a>
+                  <li class="drop-down over"><a href="#">Events</a>
                     <ul>
-                      <li><a href="ignite.html">Ignite 2021</a></li>
+                      <li class="drop-down over"><a href="events.html">2020-21</a>
+                        <ul>
+                          <li><a href="ignite.html">Ignite 2021</a></li>
                       <li><a href="devweb.html">&lt;Dev-Web&gt;</a></li>
                       <li><a href="Lockdown_series.html">Lockdown Talk Series</a></li>
                       <li><a href="weforwe.html">WE for WE</a></li>
@@ -279,10 +268,18 @@ position:relative;
                       <li><a href="events.html#icebreaking">Icebreaking Session</a></li>
                       <li><a href="events.html#lead">Lead the Leaders</a></li>
                       <li><a href="events.html#web">Web Dev Bootcamp</a></li>
-                      <li><a href="events.html#takedebait">Take De Bait</a></li>
-                      <li><a href="events.html#CyberSecurityAwareness">Cyber Security Awareness</a></li>
-                      <li><a href="events.html#iniSHEate">iniSHEate</a></li>
-                      <li><a href="She_talks.html">She Talks</a></li>  
+                      </ul>
+                      </li>
+                      <li class="drop-down over"><a href="events_2021.html">2021-22</a>
+                        <ul>
+                        
+                      <li><a href="events_2021.html#CyberSecurityAwareness">Cyber Security Awareness</a></li>
+                      <li><a href="events_2021.html#iniSHEate">iniSHEate</a></li>
+                      <li><a href="events_2021.html#canva">Workshop On Canva</a></li>  
+                     
+
+                        </ul>
+                      </li>
                       
                       </ul></li>
                   <li class="drop-down over"><a href="updates.html">Updates</a>
@@ -303,7 +300,6 @@ position:relative;
               </nav><!-- .nav-menu -->
             </div>
           </header><!-- End Header -->
-            
             <!-- ======= Hero Section ======= -->
             <section id="hero" >
           
@@ -332,21 +328,25 @@ position:relative;
               </svg>
           
             </section><!-- End Hero -->
-         
-          <div class="wrapper">
-        
            
-          <div class="main_content" id="about-contest">         
-                <center>
-                  <video class="vdo" style="margin-top:100px" poster="assets\img\Thumbnail.png" controls>
-                    <source src="assets\videos\we4u.mp4" type="video/mp4">
-               
-                    Your browser does not support HTML video.
-                 </video>
-                </center>
-            <div class="subcontent">
-              <div class="header" style="margin-left:10px;margin-top:70px"><b>About</b></div>  
-            <div class="info" >
+          
+          <div class="wrapper">
+           <div class="sidebar">
+            <div class="menu"  style="font-size:14px;">
+              <ul >
+                <li class="active"><a href="#about-contest">About</a></li>
+                <li><a href="#criteria">Criteria</a></li>
+                <li><a href="#WE4U21">WE4U Award 2021</a></li>
+       
+                <li><a href="#WE4U22">WE4U Award 2022</a></li>
+                  
+              </ul>
+            </div>
+          </div>
+
+          <div class="main_content" id="about-contest" style=" margin-top: 8%;">
+            <div class="header" >About</div>  
+            <div class="info">
               <div>The <B>We4U Best Outgoing Woman Engineer Award </B>constituted by WE-Connect, the group of alumna of Gcek, is presented each year to recognize and celebrate achievement of outstanding female final year students.
                 Five individuals will be
                 selected, one from each
@@ -354,67 +354,110 @@ position:relative;
                 annually to receive the
                 award which includes a
                 cash prize and a memento.
+                <center>
+                  <video class="vdo" style="margin-top:100px; width: 90%; height: auto;" poster="assets\img\Thumbnail.png" controls>
+                    <source src="assets\videos\we4u.mp4" type="video/mp4">
+               
+                    Your browser does not support HTML video.
+                 </video>
+                </center>
               </div>
-             
-            </div>
-            </div>
+          </div>
               
+             <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
+              <div class="header" id="criteria">Criteria</div>  
+<div class="info">
+            <ul>
+                <li>
+                    <b>ACADEMICS</b>
+                    <br>
+                    Displays excellence in academics with at least 6.0 as the CGPA. With 7.5 and above as 100% , 7.0 – 7.49 as 90%, 6.5 – 6.95 as 80%, 6.0 – 6.45 as 70% weightages.
+                        
 
-                <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
-                <div class="subcontent">
-                  <div class="header"><b>Criteria</b></div>  
-                  <div class="info" style="  margin-left: 20px;margin-bottom: 100px;text-align: justify;" >
-                    <div>
-                        <ul>
-                            <li><b>Academics</b></li>
-                    
-                            Displays excellence in academics with at least 6.0 as the CGPA. With 7.5 and above as 100% , 7.0 – 7.49 as 90%, 6.5 – 6.95 as 80%, 6.0 – 6.45 as 70% weightages.
-                        <br><br>
-                            <li><b>Leadership</b></li>
-                            Initiative in organizing events or conferences at college and intercollegiate levels.
-                          <br><br>
-  
-                            <li><b>Extra-curricular</b></li>
-                            Participation or winning
-                            in cultural, sports or tech
-                            events activities
-                            representing the
-                            college. KTU points will
-                            have additional
-                            weightage.
-                            <br><br>
-                            <li><b>Social</b></li>
-                            Contributing to
+
+                </li><br>
+                <li>
+                    <b> LEADERSHIP</b><br>
+                    Initiative in organizing events or conferences at college and intercollegiate levels.</li><br>
+              
+                    <li>
+
+              <b> EXTRA-CURRICULAR </b><br>
+              Participation or winning
+              in cultural, sports or tech
+              events activities
+              representing the
+              college. KTU points will
+              have additional
+              weightage.
+                </li>
+<br>
+                <li>
+
+                  <b> SOCIAL </b><br>
+                  Contributing to
                             activities that help in
                             making society a better
                             place and connect with
                             people.
-                        </ul>
-                  </div>
-                   
-                </div>
-                </div>
-              
-              <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
-      <div class="header award" style="text-align: center"><b>WE4U Award 2021</b></div> 
-      <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
-      <div class="header shortlistheading" style="text-align: center;"><b> First Round Shortlist</b></div>  
-      <div style="display: block;text-align: center;"><img src="assets\img\Round1.jpeg" class="round1" style="margin-bottom: 60px;margin-top: 60px;"></div>
-     
-      <div class="header winnersheading" style="text-align: center;"><b>Winners</b></div>  
-      <div style="display: block;text-align: center;"><img src="assets\img\we4uwinners.jpeg" class="winners" style="margin-bottom: 60px;margin-top: 40px;"></div>
-     
-      <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
-      <div class="header award" style="text-align: center;"><b>WE4U Award 2022</b></div> 
-      <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
-      <div class="header shortlistheading" style="text-align: center;"><b> First Round Shortlist</b></div>  
-      <div style="display: block;text-align: center;"><img src="assets/img/we4ufinalists2.jpeg" class="round2" style="margin-bottom: 60px;margin-top: 60px;"></div>
-     
-      <div class="header winnersheading" style="text-align: center;"><b>Winners</b></div>  
-      <div style="display: block;text-align: center;"><img src="assets/img/we4uwinners2.jpeg" class="winners" style="margin-bottom: 60px;margin-top: 40px;"></div>
+                    </li>
+
+              </ul>
+              </div>
+                <center> <hr style="height:2px;border-width:0;color:#7a1b1b;background-color:#7a1b1b;width:150px;margin-top:50px;margin-bottom:50px"></center>
+          <div class="header" id="WE4U21">WE4U Award 2021</div>  
+           <div class="info">
+            <div class="row1">
+               <div class="column">  <div class="header shortlistheading" style="text-align: center;"><b> First Round Shortlist</b></div>  
+               <div style="display: block;text-align: center;"><img src="assets\img\Round1.jpeg" class="round1" style="margin-bottom: 10px;margin-top: 10px; width: 100%; height:auto;"></div>
+              </div>
+
+               <div class="column"> <div class="header winnersheading" style="text-align: center;"><b>Winners</b></div>  
+               <div style="display: block;text-align: center;"><img src="assets\img\we4uwinners.jpeg" class="winners" style="margin-bottom: 10px;margin-top: 10px; width: 100%; height:auto;"></div>
+            </div>
+
+                        
+           </div>
+          </div>
+
+
+           <style>
+.column{float:left;
+width:50%;
+padding-left: 10px;}
+.row1{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and(max-width: 600px){
+  .column{width: 100%;}
+}
+           </style>
+
+
+           <div class="header" id="WE4U22">WE4U Award 2022</div>  
+           <div class="info">
+            <div class="row1">
+              <div class="column">  <div class="header shortlistheading" style="text-align: center;"><b> First Round Shortlist</b></div>  
+              <div style="display: block;text-align: center;"><img src="assets/img/we4ufinalists2.jpeg" class="round1" style="margin-bottom: 10px;margin-top: 10px; width: 100%; height:auto;"></div>
+             </div>
+
+              <div class="column"> <div class="header winnersheading" style="text-align: center;"><b>Winners</b></div>  
+              <div style="display: block;text-align: center;"><img src="assets/img/we4uwinners2.jpeg" class="winners" style="margin-bottom: 10px;margin-top: 10px; width: 100%; height:auto;"></div>
+           </div>
+
+                       
+          </div>
+           </div>
+          </div>
+
+          
+        </div>
+        <br>
+        <br>
         
-        </div>
-        </div>
 <footer id="footer"  style="font-family: 'Poppins', sans-serif;" name="footer">
     <div class="footer-top">
       <div class="container">
@@ -495,3 +538,5 @@ crossorigin="anonymous"></script>
 </body>
 </html>
 </head>
+
+
