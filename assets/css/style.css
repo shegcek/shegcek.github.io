@@ -1330,6 +1330,13 @@ display: inline-block;
    margin-left: 10px;
    margin-right: 10px;
   }
+  .vdo1{
+    width:90%;
+    padding-top: 5%;
+   height: auto;
+   margin-left: 10px;
+   margin-right: 10px;
+  }
   .round1{
     height:auto;width:500px;
 
@@ -1342,8 +1349,24 @@ display: inline-block;
   }
 }
 
+@media(min-width:992px){
+  .vdo1{
+    width:90%;
+    padding-bottom: 35%; 
+   height: auto;
+   margin-left: 10px;
+   margin-right: 10px;
+  }
+}
+
 @media(max-width:575px){
   .vdo{
+    width:90%; 
+   height: auto;
+   margin-left: 10px;
+   margin-right: 10px;
+  }
+  .vdo1{
     width:90%; 
    height: auto;
    margin-left: 10px;
