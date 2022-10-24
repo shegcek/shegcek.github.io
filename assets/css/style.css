@@ -773,7 +773,7 @@ margin: 4px 8px;
   .about .icon-box .icon i {
     font-size: 20px;
   }
-}
+} 
 
  .video-box {
   background: url("../img/about.png") center center no-repeat;
@@ -788,11 +788,15 @@ margin: 4px 8px;
 }
 
 .upcomingimg1 {
-  background: url("../img/leap.jpeg") center center no-repeat;
+  background: url("../img/stateinaugration.gif") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
-
+.upcomingimg2 {
+  background: url("../img/Webdevelopment.gif") center center no-repeat;
+  background-size: contain;
+  min-height: 300px;
+}
  .play-btn {
   width: 94px;
   height: 94px;
